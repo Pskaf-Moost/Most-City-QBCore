@@ -208,6 +208,17 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['mayor'] = {
+		label = 'Maire',
+		defaultDuty = true,
+		offDutyPay = true,
+		grades = {
+            ['0'] = {
+                name = 'Maire',
+                payment = 300
+            },
+        },
+	},
 	['lawyer'] = {
 		label = 'Law Firm',
 		defaultDuty = true,
