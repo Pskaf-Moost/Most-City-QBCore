@@ -267,7 +267,7 @@ Config.Locations = {
         --     },  
         -- },
         ["EMS"] = { -- Used as the station / garage name
-            UseTarget = true, -- Set to false to use the Marker for this station
+            UseTarget = false, -- Set to false to use the Marker for this station
             UseRent = false, -- Set to false to disable the rent feature for this station (Garage WONT WORK if UseRent and UsePurchasable are set to false)
             UseOwnable = true, -- Set to false to disable ownable vehicles 
             UsePurchasable = true, -- Set to false to disable purchasable vehicles (Garage WONT WORK if UseRent and UsePurchasable are set to false)
@@ -295,10 +295,10 @@ Config.Locations = {
                 },
                 SpawnCoords = {
                     VehicleSpawn = vector4(329.84863, -558.5644, 28.743801, 69.063636), -- Vehicle spawn and vehicle clear check coords
-                    PreviewSpawn = vector4(329.84863, -558.5644, 28.743801, 69.063636), -- Preview vehicle spawn coords
+                    PreviewSpawn = vector4(293.54, -609.30, 43.35, 235), -- Preview vehicle spawn coords
                     CheckRadius = 5.0, -- The radius the script checks for vehicle
                     CameraInformation = {
-                        CameraCoords = vector3(321.73477, -555.7084, 30.743782), -- Vehicle preview camera coords
+                        CameraCoords = vector3(287.73,-604.89, 45.65), -- Vehicle preview camera coords
                         CameraRotation = vector3(-10.00, 0.00, 253.18), -- Vehicle preview camera rotation coords
                         CameraFOV = 70.0, -- The vehicle preview camera fov value
                     },
@@ -315,6 +315,11 @@ Config.Locations = {
                     Ped = "a_m_y_smartcaspat_01", -- The ped model. More models can be found at : https://docs.fivem.net/docs/game-references/ped-models/
                     Coords = vector4(333.92584, -561.8319, 27.743801, 341.15295), -- The ped coords
                     Scenario = "WORLD_HUMAN_CLIPBOARD", -- Ped scenario. More can be found at : https://wiki.rage.mp/index.php?title=Scenarios
+                },
+				MarkerInformation = { -- If UseTarget set to false this is the required information
+                    Coords = vector3(293.54, -609.30, 45), -- The marker coords
+                    MarkerType = 36, -- The marker type. More can be found at : https://docs.fivem.net/docs/game-references/markers/
+                    MarkerColor = { R = 255, G = 0, B = 0, A = 100 }, -- The marker color. You can pick other colors here : https://rgbacolorpicker.com/
                 },
             },  
         },
