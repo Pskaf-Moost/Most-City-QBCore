@@ -17,7 +17,7 @@ Config.Throwables = {
     "molotov",
     "pipebomb",
     "proxmine",
-    "smokegrenade",
+    "weapon_smokegrenade",
     "snowball",
     "stickybomb",
 }

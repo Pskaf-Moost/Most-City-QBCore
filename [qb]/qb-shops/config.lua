@@ -298,6 +298,46 @@ Config.Products = {
             type = "item",
             slot = 5,
         },
+        [6] = {
+            name = "weed_white-widow_seed",
+            price = 100,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 6,
+        },
+        [7] = {
+            name = "weed_skunk_seed",
+            price = 100,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 7,
+        },
+        [8] = {
+            name = "weed_purple-haze_seed",
+            price = 100,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 8,
+        },
+        [9] = {
+            name = "weed_og-kush_seed",
+            price = 100,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 9,
+        },
+        [10] = {
+            name = "weed_amnesia_seed",
+            price = 100,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 10,
+        },
     },
     ["gearshop"] = {
         [1] = {
@@ -422,13 +462,13 @@ Config.Products = {
             requiresLicense = true
         },
         [8] = {
-            name = "pistol_ammo",
+            name = "weapon_smokegrenade",
             price = 250,
             amount = 250,
             info = {},
             type = "item",
-            slot = 7,
-            requiresLicense = true
+            slot = 8,
+            requiresLicense = false
         },
     },
     ["casino"] = {
