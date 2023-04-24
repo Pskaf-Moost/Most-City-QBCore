@@ -20,7 +20,15 @@ Config.Locations = {
     ["heli"] = {
 		label = "Helicopter Storage",
 		coords = vector4(-583.08, -930.55, 36.83, 89.26),
-	}
+	},
+	["mayor_office_in"] = {
+        label = "Bureau du Maire",
+        coords = vector3(-118.35, -607.1, 36.28),
+    },
+	["mayor_office_goOut"] = {
+        label = "Sortie bureau du Maire",
+        coords = vector3(-140.88, -614.05, 168.82),
+    },
 }
 
 Config.Vehicles = {

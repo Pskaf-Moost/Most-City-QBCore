@@ -29,15 +29,26 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
         AddTextComponentSubstringPlayerName(Config.Locations["vehicle"].label)
         EndTextCommandSetBlipName(blip)
     end
+
     local blip2 = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
-    SetBlipSprite(blip2, 184)
-    SetBlipDisplay(blip2, 4)
-    SetBlipScale(blip2, 0.6)
-    SetBlipAsShortRange(blip2, true)
-    SetBlipColour(blip2, 1)
-    BeginTextCommandSetBlipName("STRING")
-    AddTextComponentSubstringPlayerName(Config.Locations["main"].label)
-    EndTextCommandSetBlipName(blip2)
+        SetBlipSprite(blip2, 184)
+        SetBlipDisplay(blip2, 4)
+        SetBlipScale(blip2, 0.6)
+        SetBlipAsShortRange(blip2, true)
+        SetBlipColour(blip2, 1)
+        BeginTextCommandSetBlipName("STRING")
+        AddTextComponentSubstringPlayerName(Config.Locations["main"].label)
+        EndTextCommandSetBlipName(blip2)
+
+    local blip3 = AddBlipForCoord(Config.Locations["mayor_office_in"].coords.x, Config.Locations["mayor_office_in"].coords.y, Config.Locations["mayor_office_in"].coords.z)
+        SetBlipSprite(blip3, 475)
+        SetBlipDisplay(blip3, 4)
+        SetBlipScale(blip3, 0.6)
+        SetBlipAsShortRange(blip3, true)
+        SetBlipColour(blip3, 1)
+        BeginTextCommandSetBlipName("STRING")
+        AddTextComponentSubstringPlayerName(Config.Locations["mayor_office_in"].label)
+        EndTextCommandSetBlipName(blip3)
 end)
 
 RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
@@ -53,15 +64,26 @@ RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
         AddTextComponentSubstringPlayerName(Config.Locations["vehicle"].label)
         EndTextCommandSetBlipName(blip)
     end
+
     local blip2 = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
-    SetBlipSprite(blip2, 184)
-    SetBlipDisplay(blip2, 4)
-    SetBlipScale(blip2, 0.6)
-    SetBlipAsShortRange(blip2, true)
-    SetBlipColour(blip2, 1)
-    BeginTextCommandSetBlipName("STRING")
-    AddTextComponentSubstringPlayerName(Config.Locations["main"].label)
-    EndTextCommandSetBlipName(blip2)
+        SetBlipSprite(blip2, 184)
+        SetBlipDisplay(blip2, 4)
+        SetBlipScale(blip2, 0.6)
+        SetBlipAsShortRange(blip2, true)
+        SetBlipColour(blip2, 1)
+        BeginTextCommandSetBlipName("STRING")
+        AddTextComponentSubstringPlayerName(Config.Locations["main"].label)
+        EndTextCommandSetBlipName(blip2)
+
+    local blip3 = AddBlipForCoord(Config.Locations["mayor_office_in"].coords.x, Config.Locations["mayor_office_in"].coords.y, Config.Locations["mayor_office_in"].coords.z)
+        SetBlipSprite(blip3, 475)
+        SetBlipDisplay(blip3, 4)
+        SetBlipScale(blip3, 0.6)
+        SetBlipAsShortRange(blip3, true)
+        SetBlipColour(blip3, 1)
+        BeginTextCommandSetBlipName("STRING")
+        AddTextComponentSubstringPlayerName(Config.Locations["mayor_office_in"].label)
+        EndTextCommandSetBlipName(blip3)
 end)
 
 function TakeOutVehicle(vehicleInfo)
@@ -245,6 +267,51 @@ CreateThread(function()
 
                         SetEntityCoords(PlayerPedId(), Config.Locations["outside"].coords.x, Config.Locations["outside"].coords.y, Config.Locations["outside"].coords.z, 0, 0, 0, false)
                         SetEntityHeading(PlayerPedId(), Config.Locations["outside"].coords.w)
+
+                        Wait(100)
+
+                        DoScreenFadeIn(1000)
+                    end
+                end
+            end
+        end
+        if not inRange then
+            Wait(2500)
+        end
+    end
+end)
+
+CreateThread(function()
+    while true do
+        Wait(1)
+        local inRange = false
+        if LocalPlayer.state.isLoggedIn then
+            local pos = GetEntityCoords(PlayerPedId())
+            if #(pos - vector3(Config.Locations["mayor_office_in"].coords.x, Config.Locations["mayor_office_in"].coords.y, Config.Locations["mayor_office_in"].coords.z)) < 1.5 or #(pos - vector3(Config.Locations["mayor_office_goOut"].coords.x, Config.Locations["mayor_office_goOut"].coords.y, Config.Locations["mayor_office_goOut"].coords.z)) < 1.5 then
+                inRange = true
+                if #(pos - vector3(Config.Locations["mayor_office_in"].coords.x, Config.Locations["mayor_office_in"].coords.y, Config.Locations["mayor_office_in"].coords.z)) < 1.5 then
+                    DrawText3D(Config.Locations["mayor_office_in"].coords.x, Config.Locations["mayor_office_in"].coords.y, Config.Locations["mayor_office_in"].coords.z, Lang:t("text.enter"))
+                    if IsControlJustReleased(0, 38) then
+                        DoScreenFadeOut(500)
+                        while not IsScreenFadedOut() do
+                            Wait(10)
+                        end
+
+                        SetEntityCoords(PlayerPedId(), Config.Locations["mayor_office_goOut"].coords.x, Config.Locations["mayor_office_goOut"].coords.y, Config.Locations["mayor_office_goOut"].coords.z, 0, 0, 0, false)
+
+                        Wait(100)
+
+                        DoScreenFadeIn(1000)
+                    end
+                elseif #(pos - vector3(Config.Locations["mayor_office_goOut"].coords.x, Config.Locations["mayor_office_goOut"].coords.y, Config.Locations["mayor_office_goOut"].coords.z)) < 1.5 then
+                    DrawText3D(Config.Locations["mayor_office_goOut"].coords.x, Config.Locations["mayor_office_goOut"].coords.y, Config.Locations["mayor_office_goOut"].coords.z, Lang:t("text.go_outside"))
+                    if IsControlJustReleased(0, 38) then
+                        DoScreenFadeOut(500)
+                        while not IsScreenFadedOut() do
+                            Wait(10)
+                        end
+
+                        SetEntityCoords(PlayerPedId(), Config.Locations["mayor_office_in"].coords.x, Config.Locations["mayor_office_in"].coords.y, Config.Locations["mayor_office_in"].coords.z, 0, 0, 0, false)
 
                         Wait(100)
 
