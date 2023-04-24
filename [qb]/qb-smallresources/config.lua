@@ -80,7 +80,7 @@ Config.Stun = {
     max = 7000
 }
 
-Config.Cruise = 'mp/h'
+Config.Cruise = 'km/h'
 Config.IdleCamera = true
 Config.disableHandsupControls = {24, 25, 47, 58, 59, 63, 64, 71, 72, 75, 140, 141, 142, 143, 257, 263, 264}
 Config.DisableAmbience = false -- Disabled distance sirens, distance car alarms, etc
