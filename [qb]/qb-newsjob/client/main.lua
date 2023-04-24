@@ -234,6 +234,7 @@ CreateThread(function()
     end
 end)
 
+
 CreateThread(function()
     while true do
         Wait(1)
@@ -280,6 +281,47 @@ CreateThread(function()
         end
     end
 end)
+
+CreateThread(function()
+    while true do
+        Wait(3)
+        local inRange = false
+        if LocalPlayer.state.isLoggedIn then
+            local inRange = false
+            local pos = GetEntityCoords(PlayerPedId())
+                if #(pos - vector3(Config.Locations["mayor_office_in"].coords.x, Config.Locations["mayor_office_in"].coords.y, Config.Locations["mayor_office_in"].coords.z)) < 10.0 then
+                    inRange = true
+                    DrawMarker(23, Config.Locations["mayor_office_in"].coords.x, Config.Locations["mayor_office_in"].coords.y, Config.Locations["mayor_office_in"].coords.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 200, 200, 200, 222, false, false, false, true, false, false, false)
+                    if not inRange then
+                        Wait(2500)
+                   end
+                end   
+        else
+            Wait(2500)
+        end
+    end
+end)
+
+CreateThread(function()
+    while true do
+        Wait(3)
+        local inRange = false
+        if LocalPlayer.state.isLoggedIn then
+            local inRange = false
+            local pos = GetEntityCoords(PlayerPedId())
+                if #(pos - vector3(Config.Locations["mayor_office_goOut"].coords.x, Config.Locations["mayor_office_goOut"].coords.y, Config.Locations["mayor_office_goOut"].coords.z)) < 10.0 then
+                    inRange = true
+                    DrawMarker(23, Config.Locations["mayor_office_goOut"].coords.x, Config.Locations["mayor_office_goOut"].coords.y, Config.Locations["mayor_office_goOut"].coords.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 200, 200, 200, 222, false, false, false, true, false, false, false)
+                    if not inRange then
+                        Wait(2500)
+                   end
+                end   
+        else
+            Wait(2500)
+        end
+    end
+end)
+
 
 CreateThread(function()
     while true do
