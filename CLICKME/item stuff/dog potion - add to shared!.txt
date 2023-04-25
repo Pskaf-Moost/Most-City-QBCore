@@ -1,0 +1,12 @@
+["dogpotion"] = {
+   ["name"] = "dogpotion",
+   ["label"] = "Dog Potion",
+   ["weight"] = 125,
+   ["type"] = "item",
+   ["image"] = "dogpotion.png",
+   ["unique"] = true,
+   ["useable"] = true,
+   ["shouldClose"] = true,
+   ["combinable"] = nil,
+   ["description"] = "Woof Woof"
+},
