@@ -10,15 +10,16 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [x] ATM + Bank
 - [x] Coiffeur
 - [x] Magasin de vêtements 
-- [ ] Rajouter un marqueur map à l'emplacement de weazel news qui sera le bureau du maire et du gouvernement 
-- [ ] Passer le maximum de chose en FR
+- [x] Rajouter un marqueur map à l'emplacement de weazel news 
+- [x] Rajouter un marqueur map à l'emplacement du bureau du maire
+- [x] Passer le maximum de chose en FR
 - [x] Changer le bk_emote en FR (actuellement italien/anglais)
 - [ ] Faire un menu qui permet de donner le permis de port d'arme au lieu de passer par la commande /givelicense [id] [licensetype]
 - [x] Ajout du script pour créer des livres personalisables 
 - [ ] Trouver nouveau script pour mécanicien + remorque (Peut être inutile)
 
-- [ ] Inclure le script daddy-ped et nh keyboard au QB Core !! Important popur le lore
+- [x] Inclure le script daddy-ped et nh keyboard au QB Core !! Important popur le lore
 
-- [ ] Déplacer le vendeur Casino ou le supprimer
+- [x] Déplacer le vendeur Casino ou le supprimer
 
 
