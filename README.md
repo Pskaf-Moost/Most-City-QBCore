@@ -1,7 +1,7 @@
 # Most-City QBCore
 
 ## Reste à faire
-- [ ] Vitesse en Km/h
+- [x] Vitesse en Km/h
 - [ ] Binder le menu facture à la touche F2
 - [x] Taxi
 - [x] Rajouter ~~Peds~~ Marqueur au sol pour sortir voiture du garage police + chaque policier peut avoir sa voiture attitré dans BDDSQL (plus simple à gérer)
