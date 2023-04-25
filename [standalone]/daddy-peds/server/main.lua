@@ -150,13 +150,13 @@ end,'user')
 
 -- Can follow this format to create useable items that can transform or have effects!
 
-QBCore.Functions.CreateUseableItem('dogpotion', function(source)
+QBCore.Functions.CreateUseableItem('alienpotion', function(source)
    local Player = QBCore.Functions.GetPlayer(source)
    local identifier = GetIdentifier(source)
    local steam = identifier
-      TriggerClientEvent('dogpotion', source)
-      Player.Functions.RemoveItem("dogpotion", 1)
-      TriggerEvent("qb-inventory:client:ItemBox", QBCore.Shared.Items["dogpotion"], "remove")
+      TriggerClientEvent('alienpotion', source)
+      --Player.Functions.RemoveItem("dogpotion", 1)
+      --TriggerEvent("qb-inventory:client:ItemBox", QBCore.Shared.Items["dogpotion"], "remove")
       --PerformHttpRequest(Webhook, function(Error, Content, Head) end, 'POST', json.encode({username = 'daddy-peds', content = ' **USER:**   ```'..steam..'```**Changed their ped using**   ```DOG POTION```**---------------------------------------------------------------------------------------------------------**'}), { ['Content-Type'] = 'application/json' })
 end)
 

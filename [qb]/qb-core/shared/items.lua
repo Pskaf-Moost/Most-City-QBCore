@@ -401,4 +401,18 @@ QBShared.Items = {
 	
 	--Chair
 	['portablechair'] 				 = {['name'] = 'portablechair', 				['label'] = 'Portable Chair', 			['weight'] = 500, 			['type'] = 'item', 		['image'] = 'portablechair.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   	['combinable'] = nil,   ['description'] = 'Un peu de repos'},
+
+	--Potion
+	["alienpotion"] = {
+		["name"] = "alienpotion",
+		["label"] = "Une Etrange bouteille",
+		["weight"] = 125,
+		["type"] = "item",
+		["image"] = "dogpotion.png",
+		["unique"] = true,
+		["useable"] = true,
+		["shouldClose"] = true,
+		["combinable"] = nil,
+		["description"] = "Une odeur forte émane de cette bouteille"
+	 },
 }

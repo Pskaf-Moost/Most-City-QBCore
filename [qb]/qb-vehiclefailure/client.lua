@@ -169,7 +169,6 @@ RegisterNetEvent('iens:repaira2', function()
         SetVehicleUndriveable(vehicle, false)
         WashDecalsFromVehicle(vehicle, 1.0)
         QBCore.Functions.Notify(Lang:t("success.repaired_veh"))
-        TriggerServerEvent('qb-vehiclefailure:removeItem', "repairkit")
         SetVehicleFixed(vehicle)
         healthBodyLast = 1000.0
         healthEngineLast = 1000.0

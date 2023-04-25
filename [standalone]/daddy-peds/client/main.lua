@@ -1,6 +1,6 @@
 
 local QBCore = exports['qb-core']:GetCoreObject()
-
+local isTransformed = false
 
 -------------------whitelist-----------------
 
@@ -130,47 +130,60 @@ end)
 
 -------------------------------------------------------------------------------------------------------------------------
 -- Can follow this format to create useable items that can transform or have effects! (server AND clientside required)
-RegisterNetEvent('dogpotion')
-AddEventHandler('dogpotion', function()
-local ped = 'a_c_retriever'
+RegisterNetEvent('alienpotion')
+AddEventHandler('alienpotion', function()
+local playerPed = PlayerPedId()
+local ped = 'GrayAlien'
 local hash = GetHashKey(ped)
 local playerHash = GetHashKey()
-local isAnimal = true
-RequestModel(hash)
-while not HasModelLoaded(hash)
-   do RequestModel(hash)
-   Citizen.Wait(0)
+if isTransformed == false then
+   RequestModel(hash)
+   while not HasModelLoaded(hash)
+         --do RequestModel(hash)
+         do Citizen.Wait(0)
+      end
+   SetPlayerModel(PlayerId(), hash)
+   SetRunSprintMultiplierForPlayer(PlayerId(), 1.49)
+   SetPlayerMaxStamina(PlayerId(), 2000)
+   isTransformed = true
+   
+else
+   reloadSkin()
+   SetPlayerMaxStamina(PlayerId(), 100)
+   SetRunSprintMultiplierForPlayer(PlayerId(), 1.00)
+   isTransformed = false
 end
-SetPlayerModel(PlayerId(), hash)
-local playerPed = PlayerPedId()
-SetPedDefaultComponentVariation(playerPed)
-ClearAllPedProps(playerPed)
-ClearPedDecorations(playerPed)
-ClearPedFacialDecorations(playerPed)
-SetRunSprintMultiplierForPlayer(PlayerId(), 1.49)
-SetPlayerMaxStamina(PlayerId(), 2000)
-if isAnimal then
-   SetPedComponentVariation(playerPed, 0, 0, 0, 0)
-   Wait(200)
-   SetPedComponentVariation(playerPed, 0, 0, 1, 0)
-   Wait(200)
-end
+    
 
-SetEntityHealth(playerPed, 2000)
-AddArmourToPed(playerPed, 1000)
-SetPedArmour(playerPed, 1000)
-SetPedSuffersCriticalHits(playerPed, false)
-SetTimecycleModifier("BeastLaunch02")
-Citizen.Wait(15000)
+-- local playerPed = PlayerPedId()
+-- SetPedDefaultComponentVariation(playerPed)
+-- ClearAllPedProps(playerPed)
+-- ClearPedDecorations(playerPed)
+-- ClearPedFacialDecorations(playerPed)
+-- SetRunSprintMultiplierForPlayer(PlayerId(), 1.49)
+-- SetPlayerMaxStamina(PlayerId(), 2000)
+-- if isAnimal then
+--    SetPedComponentVariation(playerPed, 0, 0, 0, 0)
+--    Wait(200)
+--    SetPedComponentVariation(playerPed, 0, 0, 1, 0)
+--    Wait(200)
+-- end
+
+-- SetEntityHealth(playerPed, 2000)
+-- AddArmourToPed(playerPed, 1000)
+-- SetPedArmour(playerPed, 1000)
+-- SetPedSuffersCriticalHits(playerPed, false)
+-- SetTimecycleModifier("BeastLaunch02")
+-- Citizen.Wait(15000)
 
 
-SetPedSuffersCriticalHits(playerPed, true)
-SetEntityHealth(playerPed, 10)
-SetPlayerMaxStamina(PlayerId(), 100)
-SetRunSprintMultiplierForPlayer(PlayerId(), 1.00)
-ClearTimecycleModifier()
-SetModelAsNoLongerNeeded(hash)
-reloadSkin()
+-- SetPedSuffersCriticalHits(playerPed, true)
+-- SetEntityHealth(playerPed, 10)
+-- SetPlayerMaxStamina(PlayerId(), 100)
+-- SetRunSprintMultiplierForPlayer(PlayerId(), 1.00)
+-- ClearTimecycleModifier()
+-- SetModelAsNoLongerNeeded(hash)
+-- reloadSkin()
 end)
 ----------------------------------------------------------------
 

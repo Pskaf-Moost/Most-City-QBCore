@@ -177,6 +177,31 @@ RegisterNetEvent('qb-weed:client:leaveHouse', function()
     end)
 end)
 
+
+RegisterNetEvent('qb-weed:client:craftJointWhiteWidow', function()
+    TriggerServerEvent('qb-vehiclefailure:removeItem', "weed_white-widow")
+end)
+
+RegisterNetEvent('qb-weed:client:craftJointweed_skunk', function()
+    TriggerServerEvent('qb-vehiclefailure:removeItem', "weed_skunk")
+end)
+
+RegisterNetEvent('qb-weed:client:craftJointweed_purple-haze', function()
+    TriggerServerEvent('qb-vehiclefailure:removeItem', "weed_purple-haze")
+end)
+
+RegisterNetEvent('qb-weed:client:craftJointweed_og-kush', function()
+    TriggerServerEvent('qb-vehiclefailure:removeItem', "weed_og-kush")
+end)
+
+RegisterNetEvent('qb-weed:client:craftJointweed_amnesia', function()
+    TriggerServerEvent('qb-vehiclefailure:removeItem', "weed_amnesia")
+end)
+
+RegisterNetEvent('qb-weed:client:craftJointweed_ak47', function()
+    TriggerServerEvent('qb-vehiclefailure:removeItem', "weed_ak47")
+end)
+
 RegisterNetEvent('qb-weed:client:refreshHousePlants', function(house)
     if currentHouse ~= nil and currentHouse == house then
         despawnHousePlants()

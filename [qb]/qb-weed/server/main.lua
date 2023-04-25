@@ -104,6 +104,56 @@ CreateThread(function()
     end
 end)
 
+
+------------------Pochon en joint------------------
+QBCore.Functions.CreateUseableItem("weed_white-widow", function(source,item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    local nbrJoint = 5
+    Player.Functions.AddItem('joint',nbrJoint)
+    TriggerClientEvent('qb-weed:client:craftJointWhiteWidow', source)
+end)
+
+QBCore.Functions.CreateUseableItem("weed_skunk", function(source,item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    local nbrJoint = 5
+    Player.Functions.AddItem('joint',nbrJoint)
+    TriggerClientEvent('qb-weed:client:craftJointweed_skunk', source)
+end)
+
+
+QBCore.Functions.CreateUseableItem("weed_purple-haze", function(source,item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    local nbrJoint = 5
+    Player.Functions.AddItem('joint',nbrJoint)
+    TriggerClientEvent('qb-weed:client:craftJointweed_purple-haze', source)
+end)
+
+QBCore.Functions.CreateUseableItem("weed_og-kush", function(source,item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    local nbrJoint = 5
+    Player.Functions.AddItem('joint',nbrJoint)
+    TriggerClientEvent('qb-weed:client:craftJointweed_og-kush', source)
+end)
+
+QBCore.Functions.CreateUseableItem("weed_amnesia", function(source,item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    local nbrJoint = 5
+    Player.Functions.AddItem('joint',nbrJoint)
+    TriggerClientEvent('qb-weed:client:craftJointweed_amnesia', source)
+end)
+
+QBCore.Functions.CreateUseableItem("weed_ak47", function(source,item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    local nbrJoint = 5
+    Player.Functions.AddItem('joint',nbrJoint)
+    TriggerClientEvent('qb-weed:client:craftJointweed_ak47', source)
+end)
+
+
+
+
+---------------------------------------------------
+
 QBCore.Functions.CreateUseableItem("weed_white-widow_seed", function(source, item)
     TriggerClientEvent('qb-weed:client:placePlant', source, 'white-widow', item)
 end)
