@@ -148,6 +148,7 @@ local function RepairVehicle(veh)
         else
             SetVehicleDoorShut(veh, 4, false)
         end
+        TriggerClientEvent('iens:repaira', source)
         TriggerServerEvent('qb-vehiclefailure:removeItem', "repairkit")
     end, function() -- Cancel
         StopAnimTask(PlayerPedId(), "mini@repair", "fixing_a_player", 1.0)
@@ -159,6 +160,26 @@ local function RepairVehicle(veh)
         end
     end)
 end
+
+RegisterNetEvent('iens:repaira2', function()
+    local ped = PlayerPedId()
+    if IsPedInAnyVehicle(ped, false) or IsPedInAnyPlane(ped) then
+        vehicle = GetVehiclePedIsIn(ped, false)
+        SetVehicleDirtLevel(vehicle)
+        SetVehicleUndriveable(vehicle, false)
+        WashDecalsFromVehicle(vehicle, 1.0)
+        QBCore.Functions.Notify(Lang:t("success.repaired_veh"))
+        TriggerServerEvent('qb-vehiclefailure:removeItem', "repairkit")
+        SetVehicleFixed(vehicle)
+        healthBodyLast = 1000.0
+        healthEngineLast = 1000.0
+        healthPetrolTankLast = 1000.0
+        SetVehicleEngineOn(vehicle, true, false )
+        TriggerServerEvent('qb-vehiclefailure:removeItem', "repairkit")
+        return true
+    end
+    QBCore.Functions.Notify(Lang:t("error.inside_veh_req"))
+end)
 
 local function isPedDrivingAVehicle()
     local ped = PlayerPedId()
@@ -349,6 +370,8 @@ RegisterNetEvent('iens:repaira', function()
     end
     QBCore.Functions.Notify(Lang:t("error.inside_veh_req"))
 end)
+
+
 
 RegisterNetEvent('iens:besked', function()
     QBCore.Functions.Notify(Lang:t("error.roadside_avail"))

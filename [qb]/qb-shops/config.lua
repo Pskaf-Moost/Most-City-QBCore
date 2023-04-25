@@ -106,6 +106,14 @@ Config.Products = {
             type = "item",
             slot = 12,
         },
+        [13] = {
+            name = "portablechair",
+            price = 100, -- change to whatever you want the price to be 
+            amount = 50, -- amount available in stock
+            info = {},
+            type = "item",
+            slot = 13, --change this to the same number above
+        },
     },
     ["liquor"] = {
         [1] = {
@@ -160,12 +168,11 @@ Config.Products = {
         },
         [4] = {
             name = "repairkit",
-            price = 250,
+            price = 1500,
             amount = 50,
             info = {},
             type = "item",
             slot = 4,
-            requiredJob = { "mechanic", "police" }
         },
         [5] = {
             name = "screwdriverset",
@@ -247,14 +254,22 @@ Config.Products = {
             type = "item",
             slot = 14,
         },
+        -- [15] = {
+        --     name = "advancedrepairkit",
+        --     price = 500,
+        --     amount = 50,
+        --     info = {},
+        --     type = "item",
+        --     slot = 15,
+        --     requiredJob = { "mechanic" }
+        -- },
         [15] = {
-            name = "advancedrepairkit",
-            price = 500,
-            amount = 50,
+            name = "portablechair",
+            price = 100, -- change to whatever you want the price to be 
+            amount = 50, -- amount available in stock
             info = {},
             type = "item",
-            slot = 15,
-            requiredJob = { "mechanic" }
+            slot = 15, --change this to the same number above
         },
     },
     ["weedshop"] = {
@@ -1018,37 +1033,37 @@ Config.Locations = {
     },
 
     -- Casino Locations
-    ["casino"] = {
-        ["label"] = "Diamond Casino",
-        ["coords"] = vector4(978.46, 39.07, 74.88, 64.0),
-        ["ped"] = 'csb_tomcasino',
-        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
-        ["radius"] = 1.5,
-        ["targetIcon"] = "fas fa-coins",
-        ["targetLabel"] = "Buy Chips",
-        ["products"] = Config.Products["casino"],
-        ["showblip"] = true,
-        ["blipsprite"] = 617,
-        ["blipscale"] = 0.8,
-        ["blipcolor"] = 0,
-        ["delivery"] = vector4(972.6, 9.22, 81.04, 233.38)
-    },
+    -- ["casino"] = {
+    --     ["label"] = "Diamond Casino",
+    --     ["coords"] = vector4(978.46, 39.07, 74.88, 64.0),
+    --     ["ped"] = 'csb_tomcasino',
+    --     ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+    --     ["radius"] = 1.5,
+    --     ["targetIcon"] = "fas fa-coins",
+    --     ["targetLabel"] = "Buy Chips",
+    --     ["products"] = Config.Products["casino"],
+    --     ["showblip"] = true,
+    --     ["blipsprite"] = 617,
+    --     ["blipscale"] = 0.8,
+    --     ["blipcolor"] = 0,
+    --     ["delivery"] = vector4(972.6, 9.22, 81.04, 233.38)
+    -- },
 
-    ["casinobar"] = {
-        ["label"] = "Casino Bar",
-        ["coords"] = vector4(968.13, 29.85, 74.88, 208.86),
-        ["ped"] = 'a_m_y_smartcaspat_01',
-        ["scenario"] = "WORLD_HUMAN_VALET",
-        ["radius"] = 1.5,
-        ["targetIcon"] = "fas fa-wine-bottle",
-        ["targetLabel"] = "Open Casino Bar",
-        ["products"] = Config.Products["liquor"],
-        ["showblip"] = false,
-        ["blipsprite"] = 52,
-        ["blipscale"] = 0.8,
-        ["blipcolor"] = 0,
-        ["delivery"] = vector4(937.16, 1.0, 78.76, 152.4)
-    },
+    -- ["casinobar"] = {
+    --     ["label"] = "Casino Bar",
+    --     ["coords"] = vector4(968.13, 29.85, 74.88, 208.86),
+    --     ["ped"] = 'a_m_y_smartcaspat_01',
+    --     ["scenario"] = "WORLD_HUMAN_VALET",
+    --     ["radius"] = 1.5,
+    --     ["targetIcon"] = "fas fa-wine-bottle",
+    --     ["targetLabel"] = "Open Casino Bar",
+    --     ["products"] = Config.Products["liquor"],
+    --     ["showblip"] = false,
+    --     ["blipsprite"] = 52,
+    --     ["blipscale"] = 0.8,
+    --     ["blipcolor"] = 0,
+    --     ["delivery"] = vector4(937.16, 1.0, 78.76, 152.4)
+    -- },
 
     -- Weedshop Locations
     ["weedshop"] = {
