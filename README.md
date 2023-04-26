@@ -16,7 +16,7 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [x] Changer le bk_emote en FR (actuellement italien/anglais)
 - [ ] Faire un menu qui permet de donner le permis de port d'arme au lieu de passer par la commande /givelicense [id] [licensetype]
 - [x] Ajout du script pour créer des livres personalisables 
-- [ ] Trouver nouveau script pour mécanicien + remorque (Peut être inutile)
+- [x] Trouver nouveau script pour mécanicien + ~~remorque (Peut être inutile)~~
 
 - [x] Inclure le script daddy-ped et nh keyboard au QB Core !! Important popur le lore
 
