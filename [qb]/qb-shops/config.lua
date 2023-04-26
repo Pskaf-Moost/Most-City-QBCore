@@ -173,6 +173,7 @@ Config.Products = {
             info = {},
             type = "item",
             slot = 4,
+            requiredJob = { "mechanic" }
         },
         [5] = {
             name = "screwdriverset",

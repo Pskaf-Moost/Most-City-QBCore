@@ -2,6 +2,17 @@ QBShared = QBShared or {}
 
 QBShared.Vehicles = {
     --- Compacts
+    ['explorer'] = {
+        ['name'] = 'Explorer',
+        ['brand'] = 'Ford',
+        ['model'] = 'explorer',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `explorer`,
+        ['shop'] = 'pdm',
+    },
+
     ['asbo'] = { -- This has to match the spawn code of the vehicle
         ['name'] = 'Asbo', -- This is the display of the vehicle
         ['brand'] = 'Maxwell', -- This is the vehicle's brand (Ford, Chevrolet, BMW, Mercedes, etc)

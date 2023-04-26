@@ -660,6 +660,7 @@ RegisterNUICallback('ClearAlerts', function(data, cb)
     cb("ok")
 end)
 
+
 RegisterNUICallback('PayInvoice', function(data, cb)
     local senderCitizenId = data.senderCitizenId
     local society = data.society
@@ -669,6 +670,7 @@ RegisterNUICallback('PayInvoice', function(data, cb)
         if CanPay then PhoneData.Invoices = Invoices end
         cb(CanPay)
     end, society, amount, invoiceId, senderCitizenId)
+	TriggerServerEvent('jim-payments:Tickets:Give', data)
     TriggerServerEvent('qb-phone:server:BillingEmail', data, true)
 end)
 
