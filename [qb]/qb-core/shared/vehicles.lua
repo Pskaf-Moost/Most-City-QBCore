@@ -12,6 +12,26 @@ QBShared.Vehicles = {
         ['hash'] = `explorer`,
         ['shop'] = 'pdm',
     },
+    ['e63sf'] = {
+        ['name'] = 'E63',
+        ['brand'] = 'Mercedes',
+        ['model'] = 'e63sf',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `e63sf`,
+        ['shop'] = 'pdm',
+    },
+    ['rs615'] = {
+        ['name'] = 'RS6',
+        ['brand'] = 'Audi',
+        ['model'] = 'rs615',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `rs615`,
+        ['shop'] = 'pdm',
+    },
 
     ['asbo'] = { -- This has to match the spawn code of the vehicle
         ['name'] = 'Asbo', -- This is the display of the vehicle

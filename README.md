@@ -22,4 +22,3 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 
 - [x] Déplacer le vendeur Casino ou le supprimer
 
-
