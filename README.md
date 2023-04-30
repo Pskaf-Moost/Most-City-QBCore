@@ -22,3 +22,12 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 
 - [x] Déplacer le vendeur Casino ou le supprimer
 
+- [ ] Implémenter quelques véhicules
+- [ ] Bar à chat
+- [ ] Système de gang
+- [ ] Fix les tweets sur le téléphone
+- [ ] Verifier les prix + Economie 
+- [ ] Changer la création du numéro de tel en plus simple
+- [ ] Weaponshop à remplacer https://tebex.store/qb-esx-weaponshop-qb-weaponshop-esx-weaponshop/
+- [ ] Implementer VMS_Barber
+- [ ] Shoprobbery V2 ?
