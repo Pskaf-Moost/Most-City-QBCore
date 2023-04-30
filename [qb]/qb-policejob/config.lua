@@ -17,7 +17,7 @@ Config.LicenseRank = 2
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(440.085, -974.924, 30.689),
+        [1] = vector3(441.19, -981.9, 30.69),
         [2] = vector3(-449.811, 6012.909, 31.815),
     },
     ["vehicle"] = {
@@ -29,7 +29,7 @@ Config.Locations = {
         [1] = vector3(453.075, -980.124, 30.889),
     },
     ["impound"] = {
-        [1] = vector3(436.68, -1007.42, 27.32),
+        [1] = vector3(432.02, -1009.86, 27.9),
         [2] = vector3(-436.14, 5982.63, 31.34),
     },
     ["helicopter"] = {
@@ -37,7 +37,9 @@ Config.Locations = {
         [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
     },
     ["armory"] = {
-        [1] = vector3(462.23, -981.12, 30.68),
+        [1] = vector3(481.31, -996.24, 30.69),
+        [2] = vector3(482.89, -995.6, 30.69),
+        [3] = vector3(485.46, -995.46, 30.69),
     },
     ["trash"] = {
         [1] = vector3(439.0907, -976.746, 30.776),
