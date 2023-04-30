@@ -76,7 +76,7 @@ RegisterNetEvent('jim-mechanic:server:UpdateDrivingDistance', function(plate)
 	if result[1] then
 		if result[1].traveldistance ~= nil then
 			MySQL.Async.execute('UPDATE player_vehicles SET traveldistance = ? WHERE plate = ?', {result[1]["traveldistance"] + 55, plate}) 
-			if Config.Debug then print(result[1]["traveldistance"] + 95) end
+			--if Config.Debug then print(result[1]["traveldistance"] + 95) end
 		end
 	end
 end)
