@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="IDContainer">
+            <img class="IDCityImage" src= './images/Citylogo.png'></img>
+            <img class="IDBarcode" src= './images/Barcode.png'></img>
+            <img id="IDImage2" class="IDImage2"></img>
+            <div class="IDHeader">LOS SANTOS</div>
+            <div class="IDHeader2">IDENTIFICATION CARD</div>
+            <div id='IDPlayerImage'>
+                <img class="IDImage" src= 'https://cdn.discordapp.com/attachments/900164862427156570/1012480555763367996/unknown.png'></img>
+            </div>
+            <div id='IDLine'>
+                <div class="BlueText">ID</div>
+                <div id="IDCID" class="RedText"></div>
+            </div>
+            <div id='IDLine'>
+                <div class="BlueText">DOB</div>
+                <div id="IDDOB" class="RedText"></div>
+            </div>
+            <div id="IDSignature" class="IDSignature"></div>
+            <div id='IDPLayerInfo'>
+                <div class="BlueText">LN </div>
+                <div id="IDLastName" class="BlackText"></div>
+            </div>
+            <div id='IDPLayerInfo'>
+                <div class="BlueText">FN </div>
+                <div id="IDFirstName" class="BlackText"></div>
+            </div>
+            <div id='IDPLayerInfo'>
+                <div class="BlueText">Sex </div>
+                <div id="IDSex" class="BlackText"></div>
+            </div>
+            <div id='IDPLayerInfo'>
+                <div class="BlueText">HGT</div>
+                <div id="IDHeight" class="BlackText">5'09"</div>
+            </div>
+            <div id='IDPLayerInfo'>
+                <div class="BlueText">WGT</div>
+                <div id="IDWeight" class="BlackText">150 lb</div>
+            </div>
+        </div>
+        <div id="DLContainer">
+            <img class="DLBarcode" src= './images/Barcode.png'></img>
+            <img class="DLCityImage" src= './images/Citylogo.png'></img>
+            <div class="DLHeader">DRIVERS LICENSE</div>
+            <div id='DLPlayerImage'></div>
+            <div id='DLInfoLine'>
+                <div class="BlueText">ID </div>
+                <div id="DLCID" class="RedText"></div>
+            </div>
+            <div id='DLInfoLine'>
+                <div class="BlueText">LN </div>
+                <div id="DLLastName" class="BlackText"></div>
+            </div>
+            <div id='DLInfoLine'>
+                <div class="BlueText">FN </div>
+                <div id="DLFirstName" class="BlackText"></div>
+            </div>
+            <div id='DLInfoLine'>
+                <div class="BlueText">DOB </div>
+                <div id="DLDOB" class="RedText"></div>
+            </div>
+            <div id='DLPLayerInfo'>
+                <div class="BlueText">Sex </div>
+                <div id="DLSex" class="BlackText"></div>
+                <div class="BlueText">HGT </div>
+                <div id="DLHeight" class="BlackText">5'09"</div>
+                <div class="BlueText">WGT </div>
+                <div id="DLWeight"class="BlackText">150 lb</div>
+                <div id="DLClassTxt" class="BlueText">CLASS</div>
+                <div id="DLClass" class="RedText"></div>
+            </div>
+            <div id="DLSignature" class="DLSignature"></div>
+        </div>
+        <div id="PDContainer">
+            <div id="PDHeader" class="PDHeader">LOS SANTOS</div>
+            <div id="PDContainer2">
+                <div id='PDPlayerImage'></div>
+                <div id='PDInfoLine'>
+                    <div id="PDFirstName" class="BlackText"></div>
+                </div>
+                <div id='PDInfoLine'>
+                    <div id="PDLastName" class="BlackText"></div>
+                </div>
+                <div id='PDInfoLine'>
+                    <div id="PDCallSign" class="BlackText"></div>
+                </div>
+                <div id="PDJobContainer">
+                    <div id="PDJobTitle" class="PDJobTitle"></div>
+                </div>
+                <div id="PDSignature" class="PDSignature"></div>
+            </div>
+            <img id="PDBadgeImage" class="PDBadgeImage" src= './images/pd.png'></img>
+        </div>
+        <div id="EMSContainer">
+            <div id="EMSContainer2">
+                <div id='EMSPlayerImage'>
+                    <img class="EMSImage" src= 'https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png'></img>
+                </div>
+                <div id='EMSInfoLine'>
+                    <div class="RedText" style="font-size: 25px;">MEDICAL SERVICES</div>
+                </div>
+                <div id='EMSInfoLine'>
+                    <div id="EMSName" class="BlackText"></div>
+                </div>
+                <div id='EMSInfoLine'>
+                    <div id="EMSCallSign" class="BlackText"></div>
+                </div>
+                <img class="EMSLogoImage" src= './images/ems.png'></img>
+            </div>
+            <div id="EMSJobTitle" class="EMSJobTitle"></div>
+        </div> 
+        <div id="EditIDS">
+            <div id="EDHeader" class="EDHeader">IDENTITY CARD INFORMATION</div>
+            <div id="EDImageTitle" class="EDImageTitle" style = "margin-right:-17px;">IDENTITY CARD</div>
+            <img id = "EDIDPlayerImage" class="EDPlayerImage" src= 'https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png'></img>
+            <input id = "EDIDChangeImageInput" class="EDChangeImageInput" onchange="UpdateIDImage()" value="https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png"></input>
+            
+            <div id="EDDLImageTitle" class="EDImageTitle" style = "margin-right:115px;">DRIVERS LICENSE</div>
+            <img id = "EDDLPlayerImage" style = "left: 400px;" class="EDPlayerImage" src= 'https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png'></img>
+            <input id = "EDDLChangeImageInput" style = "left: 400px;" class="EDChangeImageInput" onchange="UpdateDLImage()" value="https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png"></input>
+            
+            <div id="EDEMSImageTitle" class="EDImageTitle"style = "margin-right:-10px;">EMS ID CARD</div>
+            <img id = "EDEMSPlayerImage" style = "left: 700px;" class="EDPlayerImage" src= 'https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png'></img>
+            <input id = "EDEMSChangeImageInput" style = "left: 700px;" class="EDChangeImageInput" onchange="UpdateEMSImage()" value="https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png"></input>
+            
+            <div id="EDPDImageTitle" class="EDImageTitle">POLICE BADGE</div>
+            <img id = "EDPDPlayerImage" style = "left: 900px;" class="EDPlayerImage" src= 'https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png'></img>
+            <input id = "EDPDChangeImageInput" style = "left: 900px;" class="EDChangeImageInput" onchange="UpdatePDImage()" value="https://cdn.discordapp.com/attachments/900164862427156570/1011415420051402852/unknown.png"></input>
+            
+
+            <div id='EDPlayerInfo'>
+                <div class="WhiteText">First: </div>
+                <div id= "PlayerFirst" class="WhiteText" style ='margin-right:50px;font-family: Courier New;font-size: 30px;' >Skeleton</div>
+                <div class="WhiteText">Last: </div>
+                <div id= "PlayerLast" class="WhiteText" style ='margin-right:50px;font-family: Courier New;font-size: 30px;'>Networks</div>
+                <div class="WhiteText">CITIZEN ID: </div>
+                <div id= "PlayerCID" class="WhiteText" style ='margin-right:50px;font-family: Courier New;font-size: 30px;'>EAN92466</div>
+            </div>
+            <div id='EDPlayerInfo'>
+                <div class="WhiteText">Date Of Birth: </div>
+                <div id= "PlayerDOB" class="WhiteText" style ='margin-right:50px;font-family: Courier New;font-size: 30px;' >2002-08-18</div>
+                <div class="WhiteText">Gender: </div>
+                <div id= "PlayerGender" class="WhiteText" style ='margin-right:50px;font-family: Courier New;font-size: 30px;' >M</div>
+                <div id= "PlayerGender"  class="WhiteText">Height: </div>
+                <input id = "EDHeightInput" class="EDHeightInput" name="idk" value="5"></input>
+                <div class="WhiteText">'</div>
+                <input id = "EDHeightInput2" class="EDHeightInput" name="idk" value="9"></input>
+                <div class="WhiteText">"</div>
+                <div class="WhiteText">Weight: </div>
+                <input id = "EDWeightInput" class="EDHeightInput" style = " width:50px;"name="idk" value="150"></input>
+                <div class="WhiteText">lb</div>
+            </div>
+            <div id="EDSignature" class="EDSignature">Skeleton Networks.</div>
+            <div id="EDDoneButton" onclick="ExitMenuUpdate()" class="EDDoneButton">
+                <div class="BlackText" style ='margin-right:0px;'>DONE</div>
+            </div>
+            <div id="EDXButton" onclick="ExitMenu()" WhiteTextclass="EDXButton">
+                <div class="WhiteText" style ='margin-right:0px;'>X</div>
+        </div> 
+    </body>
+</html>

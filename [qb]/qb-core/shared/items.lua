@@ -515,4 +515,11 @@ QBShared.Items = {
 	["internals"] 					 = {["name"] = "internals", 				["label"] = "Internal Cosmetics", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "internals.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = ""},
 	["externals"] 					 = {["name"] = "externals", 				["label"] = "Exterior Cosmetics", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "mirror.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = ""},
 	["payticket"] 					 = {["name"] = "payticket", 				["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 				["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!"},
+
+
+	--ID CARDS
+ ['police_badge'] 				 = {['name'] = 'police_badge', 			  		['label'] = 'Police Badge', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'police_badge.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'To identify yourself'},
+  ['ems_idcard'] 					 = {['name'] = 'ems_idcard', 			  		['label'] = 'EMS ID', 				 	['weight'] = 0, 		['type'] = 'item', 		['image'] = 'ems_idcard.png', 		['unique'] = true, 		    ['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'To identify yourself'},
+
+
 }

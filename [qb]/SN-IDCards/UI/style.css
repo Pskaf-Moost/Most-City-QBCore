@@ -1,0 +1,678 @@
+#IDContainer {
+    background-image: url("https://cdn.discordapp.com/attachments/900164862427156570/1011417593325834301/Card.png");
+    background-repeat:repeat;
+    width: 255px;
+    height: 355px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #000000;
+    display: none;
+}
+
+.IDHeader {
+    width: 100%;
+    max-width: 100%;
+    top: 3px;
+    left: 10px;
+    display: flex;
+    align-items: left;
+    position: relative;
+    justify-content: left;
+    color: rgb(27, 68, 134);
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 37px;
+    overflow: hidden;
+    font-weight: 200;
+}
+
+.IDHeader2 {
+    width: 100%;
+    max-width: 100%;
+    top: -2px;
+    left: 10px;
+    display: flex;
+    align-items: left;
+    position: relative;
+    justify-content: left;
+    color: rgb(26, 128, 68);
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: 200;
+}
+
+.IDImage {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.IDImage2 {
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    opacity: 0.3;
+}
+
+.IDBarcode {
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+#IDLine {
+    width: 120px;
+    max-width: 120px;
+    position: relative;
+    justify-content: left;
+    top: 0px;
+    left: 115px;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.IDSignature {
+    width: 100%;
+    max-width: 100%;
+    top: 15px;
+    left: 10px;
+    display: flex;
+    position: relative;
+    justify-content: left;
+    color: rgb(0, 0, 0);
+    font-family: "Segoe Script";
+    font-size: 16px;
+    overflow: hidden;
+    font-weight: 100;
+}
+
+#IDPLayerInfo {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    justify-content: left;
+    top: 20px;
+    left: 10px;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.IDCityImage {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    opacity: 0.3;
+}
+
+#DLContainer {
+    background-image: url("https://cdn.discordapp.com/attachments/900164862427156570/1011417593325834301/Card.png");
+    background-repeat:repeat;
+    width: 435px;
+    height: 250px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #000000;
+    display: none;
+}
+
+.DLHeader {
+    width: 100%;
+    max-width: 100%;
+    top: 7px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: rgb(27, 68, 134);
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 2.2rem;
+    overflow: hidden;
+    font-weight: 200;
+}
+
+.DLImage {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#DLInfoLine {
+    width: 320px;
+    max-width: 320px;
+    position: relative;
+    justify-content: left;
+    top: 7px;
+    left: 145px;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+#DLPLayerInfo {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    justify-content: left;
+    top: 9px;
+    left: 30px;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.DLSignature {
+    width: 100%;
+    max-width: 100%;
+    top: 20px;
+    left: 40px;
+    display: flex;
+    position: relative;
+    justify-content: left;
+    color: rgb(0, 0, 0);
+    font-family: "Segoe Script";
+    font-size: 30px;
+    overflow: hidden;
+    font-weight: 100;
+}
+
+.DLCityImage {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0.3;
+}
+
+.DLBarcode {
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    bottom: 100px;
+    right: -30px;
+    transform: rotate(-90deg);
+}
+
+#PDContainer {
+    background-image: url("https://cdn.discordapp.com/attachments/900164862427156570/1011556983205281852/leather.png");
+    background-repeat:repeat;
+    width: 475px;
+    height: 275px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #000000;
+    display: none;
+}
+
+.PDHeader {
+    width: 100%;
+    max-width: 100%;
+    top: 13px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-size: 2.2rem;
+    overflow: hidden;
+    font-weight: 200;
+}
+
+#PDContainer2 {
+    background-color: rgb(221, 221, 221);
+    width: 275px;
+    height: 175px;
+    position: absolute;
+    top: 72px;
+    left: 20px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-box-shadow:    inset 0 0 6px #000000;
+    -webkit-box-shadow: inset 0 0 6px #000000;
+    box-shadow:         inset 0 0 6px #000000;
+}
+
+.PDBadgeImage {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 80px;
+    right:20px;
+}
+
+.PDImage {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#PDInfoLine {
+    width: 320px;
+    max-width: 320px;
+    position: relative;
+    justify-content: left;
+    top: 8px;
+    left: 120px;
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+#PDJobContainer {
+    background-color: rgb(47, 103, 187);
+    width: 100%;
+    height: 27px;
+    position: absolute;
+    top: 115px;
+    left: 0px;
+}
+
+.PDJobTitle {
+    width: 100%;
+    max-width: 100%;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-size: 20px;
+    overflow: hidden;
+    font-weight: 200;
+}
+
+.PDSignature {
+    width: 100%;
+    max-width: 100%;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: "Segoe Script";
+    font-style: bold;
+    font-size: 16px;
+    overflow: hidden;
+    font-weight: 100;
+}
+
+#EMSContainer {
+    background-color: rgb(204, 61, 61);
+    width: 255px;
+    height: 355px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #000000;
+    display: none;
+}
+
+#EMSContainer2 {
+    background-image: url("https://cdn.discordapp.com/attachments/900164862427156570/1011417593325834301/Card.png");
+    background-repeat:repeat;
+    width: 255px;
+    height: 230px;
+    position: absolute;
+    top: 75px;
+    right: 0px;
+}
+
+.EMSImage {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    border-radius: 3px 3px 3px 3px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+#EMSInfoLine {
+    width: 255px;
+    max-width: 255px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    top: 60px;
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+    padding-bottom: 7px;
+}
+
+.EMSLogoImage {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 7px;
+    left: 90px;
+}
+
+.EMSJobTitle {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    top: 310px;
+    color: rgb(255, 255, 255);
+    font-family: "Trebuchet MS";
+    font-style: bold;
+    font-size: 30px;
+    overflow: hidden;
+    font-weight: 200;
+}
+
+.BlueText {
+    display:inline-block;
+    margin-right:5px;
+    color: rgb(46, 99, 185);
+}
+
+.BlackText {
+    display:inline-block;
+    margin-right:13px;
+    color: rgb(0, 0, 0);
+}
+
+.RedText {
+    display:inline-block;
+    color: rgb(182, 26, 26);
+}
+
+.WhiteText {
+    display:inline-block;
+    margin-right:10px;
+    color: rgb(255, 255, 255);
+}
+
+#EditIDS {
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 1300px;
+    height: 750px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    border-radius: 5px 5px 5px 5px;
+    display: none;
+}
+
+.EDHeader {
+    width: 100%;
+    max-width: 100%;
+    top: 7px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 50px;
+    overflow: hidden;
+    font-weight: 200;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.EDImageTitle{
+    top: 20px;
+    left: 200px;
+    width: 200px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    overflow: hidden;
+    font-weight: 200;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display:inline-block;
+}
+
+.EDPlayerImage {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    border-radius: 3px 3px 3px 3px;
+    border: 5px solid rgb(255, 255, 255);
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.EDChangeImageInput {
+    top: 270px;
+    left: 200px;
+    width: 120px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#EDPlayerInfo {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    top: 250px;
+    font-family: "Trebuchet MS";
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+    padding-bottom: 50px;
+    white-space: nowrap; 
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#EDHeightInput {
+    width:30px;
+    height: 30px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgb(255, 255, 255);
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    align-items: right;
+    position: relative;
+    justify-content: right;
+}
+
+#EDHeightInput:focus {
+    outline: none;
+}
+
+#EDHeightInput:hover {
+    color: rgb(151, 151, 151);
+}
+
+#EDHeightInput2 {
+    width:30px;
+    height: 30px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgb(255, 255, 255);
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    align-items: right;
+    position: relative;
+    justify-content: right;
+}
+
+#EDHeightInput2:focus {
+    outline: none;
+}
+
+#EDHeightInput2:hover {
+    color: rgb(151, 151, 151);
+}
+
+#EDWeightInput {
+    width:30px;
+    height: 30px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgb(255, 255, 255);
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    align-items: right;
+    position: relative;
+    justify-content: right;
+}
+
+#EDWeightInput:focus {
+    outline: none;
+}
+
+#EDWeightInput:hover {
+    color: rgb(151, 151, 151);
+}
+
+.EDSignature {
+    width: 100%;
+    max-width: 100%;
+    top: 250px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Segoe Script";
+    font-style: bold;
+    font-size: 30px;
+    overflow: hidden;
+    font-weight: 100;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#EDDoneButton {
+    background-color: rgba(207, 207, 207, 1.0);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trebuchet MS";
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+#EDDoneButton:hover {
+    background-color: rgb(151, 151, 151);
+}
+
+#EDXButton {
+    background-color: rgb(192, 45, 45);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trebuchet MS";
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    overflow: hidden;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#EDXButton:hover {
+    background-color: rgb(180, 75, 75);
+}

@@ -22,6 +22,8 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 
 - [x] Déplacer le vendeur Casino ou le supprimer
 
+- [x] Better ID Cards
+- [ ] Tester l'interaction ID cards avec d'autres personnes
 - [ ] Implémenter quelques véhicules
 - [ ] Bar à chat
 - [ ] Système de gang
