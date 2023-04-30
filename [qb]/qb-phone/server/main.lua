@@ -257,7 +257,8 @@ QBCore.Functions.CreateCallback('qb-phone:server:GetPhoneData', function(source,
             PhoneData.Hashtags = Hashtags
         end
 
-        local Tweets = MySQL.query.await('SELECT * FROM phone_tweets WHERE `date` > NOW() - INTERVAL ? hour', {Config.TweetDuration})
+        --local Tweets = MySQL.query.await('SELECT * FROM phone_tweets WHERE `date` > NOW() - INTERVAL ? hour', {Config.TweetDuration})
+        local Tweets = MySQL.query.await('SELECT * FROM phone_tweets')
 
         if Tweets ~= nil and next(Tweets) ~= nil then
             PhoneData.Tweets = Tweets
@@ -806,22 +807,25 @@ end)
 RegisterNetEvent('qb-phone:server:UpdateTweets', function(NewTweets, TweetData)
     local src = source
     if Config.Linux then
-        MySQL.insert('INSERT INTO phone_tweets (citizenid, firstName, lastName, message, date, url, picture, tweetid) VALUES (?, ?, ?, ?, ?, ?, ?, ?)', {
+        --MySQL.insert('INSERT INTO phone_tweets (citizenid, firstName, lastName, message, date, url, picture, tweetid) VALUES (?, ?, ?, ?, ?, ?, ?, ?)', {
+            MySQL.insert('INSERT INTO phone_tweets (citizenid, firstName, lastName, message, url, picture, tweetid) VALUES (?, ?, ?, ?, ?, ?, ?)', {
             TweetData.citizenid,
             TweetData.firstName,
             TweetData.lastName,
             TweetData.message,
-            TweetData.date,
+            --TweetData.date,
             TweetData.url:gsub("[%<>\"()\' $]",""),
             TweetData.picture:gsub("[%<>\"()\' $]",""),
             TweetData.tweetId
         })
         TriggerClientEvent('qb-phone:client:UpdateTweets', -1, src, NewTweets, TweetData, false)
     else
-        MySQL.insert('INSERT INTO phone_tweets (citizenid, firstName, lastName, message, date, url, picture, tweetid) VALUES (?, ?, ?, ?, ?, ?, ?, ?)', {
+        --MySQL.insert('INSERT INTO phone_tweets (citizenid, firstName, lastName, message, date, url, picture, tweetid) VALUES (?, ?, ?, ?, ?, ?, ?, ?)', {
+        MySQL.insert('INSERT INTO phone_tweets (citizenid, firstName, lastName, message, url, picture, tweetid) VALUES (?, ?, ?, ?, ?, ?, ?)', {
             TweetData.citizenid,
             TweetData.firstName,
             TweetData.lastName,
+            --TweetData.date,
             TweetData.message,
             TweetData.time,
             TweetData.url:gsub("[%<>\"()\' $]",""),
