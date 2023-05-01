@@ -25,7 +25,7 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [x] Better ID Cards
 - [ ] Tester l'interaction ID cards avec d'autres personnes
 - [ ] Implémenter quelques véhicules
-- [ ] Bar à chat
+- [x] Bar à chat
 - [ ] Système de gang
 - [x] Fix les tweets sur le téléphone
 - [ ] Verifier les prix + Economie 
