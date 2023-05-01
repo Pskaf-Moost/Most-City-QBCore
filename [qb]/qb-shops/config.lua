@@ -224,7 +224,7 @@ Config.Products = {
             slot = 10,
         },
         [11] = {
-            name = "firework3",
+            name = "rope",
             price = 50,
             amount = 50,
             info = {},
@@ -232,8 +232,8 @@ Config.Products = {
             slot = 11,
         },
         [12] = {
-            name = "firework4",
-            price = 50,
+            name = "drill",
+            price = 200,
             amount = 50,
             info = {},
             type = "item",

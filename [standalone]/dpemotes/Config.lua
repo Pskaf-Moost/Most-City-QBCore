@@ -4,7 +4,7 @@ Config = {
 -- try en, fr, de or sv.
 	MenuLanguage = 'en',	
 -- Set this to true to enable some extra prints
-	DebugDisplay = true,
+	DebugDisplay = false,
 -- Set this to false if you have something else on X, and then just use /e c to cancel emotes.
 	EnableXtoCancel = true,
 -- Set this to true if you want to disarm the player when they play an emote.
