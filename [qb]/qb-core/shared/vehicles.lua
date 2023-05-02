@@ -2,6 +2,18 @@ QBShared = QBShared or {}
 
 QBShared.Vehicles = {
     --- Compacts
+
+    ['wrx19'] = {
+        ['name'] = 'WRX 2019',
+        ['brand'] = 'Subaru',
+        ['model'] = 'wrx19',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `wrx19`,
+        ['shop'] = 'pdm',
+    },
+
     ['explorer'] = {
         ['name'] = 'Explorer',
         ['brand'] = 'Ford',
@@ -12,6 +24,18 @@ QBShared.Vehicles = {
         ['hash'] = `explorer`,
         ['shop'] = 'pdm',
     },
+
+    ['2018k9chgrrb'] = {
+        ['name'] = 'Charger',
+        ['brand'] = 'Dodge',
+        ['model'] = '2018k9chgrrb',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `2018k9chgrrb`,
+        ['shop'] = 'pdm',
+    },
+
     ['e63sf'] = {
         ['name'] = 'E63',
         ['brand'] = 'Mercedes',

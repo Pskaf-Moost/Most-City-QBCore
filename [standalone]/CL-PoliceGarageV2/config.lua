@@ -164,6 +164,30 @@ Config.Locations = {
                             },
                         },
                     },
+                    ["Dodge K9"] = {
+                        Vehicle = "2018k9chgrrb", -- The vehicle to spawn
+                        TotalPrice = 0, -- The total price it costs to buy this vehicle
+                        Rank = 0, -- The rank required to purchase this vehicle. Set to 0 to enable all ranks
+                        VehicleSettings = { -- Everthing inside those brackets is totally optional (For things you dont want to use simply remove)
+                            DefaultExtras = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 }, -- Default extras that the vehicle will spawn with the numbers to represent the vehicle extra id (Keep empty to remove all extras or delete to disable this feature)
+                            TrunkItems = { -- Trunk items the vehicle would spawn with
+                                [1] = {
+                                    name = "heavyarmor",
+                                    amount = 2,
+                                    info = {},
+                                    type = "item",
+                                    slot = 1,
+                                },
+                                [2] = {
+                                    name = "empty_evidence_bag",
+                                    amount = 10,
+                                    info = {},
+                                    type = "item",
+                                    slot = 2,
+                                },
+                            },
+                        },
+                    },
                     ["Police Vehicle 3"] = {
                         Vehicle = "police3", -- The vehicle to spawn
                         TotalPrice = 0, -- The total price it costs to buy this vehicle
@@ -188,30 +212,30 @@ Config.Locations = {
                             },
                         },
                     },
-                    ["Sheriff"] = {
-                        Vehicle = "sheriff", -- The vehicle to spawn
-                        TotalPrice = 0, -- The total price it costs to buy this vehicle
-                        Rank = 0, -- The rank required to purchase this vehicle. Set to 0 to enable all ranks
-                        VehicleSettings = { -- Everthing inside those brackets is totally optional (For things you dont want to use simply remove)
-                            DefaultExtras = { 1, 2 }, -- Default extras that the vehicle will spawn with the numbers to represent the vehicle extra id (Keep empty to remove all extras or delete to disable this feature)
-                            TrunkItems = { -- Trunk items the vehicle would spawn with
-                                [1] = {
-                                    name = "heavyarmor",
-                                    amount = 2,
-                                    info = {},
-                                    type = "item",
-                                    slot = 1,
-                                },
-                                [2] = {
-                                    name = "empty_evidence_bag",
-                                    amount = 10,
-                                    info = {},
-                                    type = "item",
-                                    slot = 2,
-                                },
-                            },
-                        },
-                    },      
+                    -- ["Sheriff"] = {
+                    --     Vehicle = "sheriff", -- The vehicle to spawn
+                    --     TotalPrice = 0, -- The total price it costs to buy this vehicle
+                    --     Rank = 0, -- The rank required to purchase this vehicle. Set to 0 to enable all ranks
+                    --     VehicleSettings = { -- Everthing inside those brackets is totally optional (For things you dont want to use simply remove)
+                    --         DefaultExtras = { 1, 2 }, -- Default extras that the vehicle will spawn with the numbers to represent the vehicle extra id (Keep empty to remove all extras or delete to disable this feature)
+                    --         TrunkItems = { -- Trunk items the vehicle would spawn with
+                    --             [1] = {
+                    --                 name = "heavyarmor",
+                    --                 amount = 2,
+                    --                 info = {},
+                    --                 type = "item",
+                    --                 slot = 1,
+                    --             },
+                    --             [2] = {
+                    --                 name = "empty_evidence_bag",
+                    --                 amount = 10,
+                    --                 info = {},
+                    --                 type = "item",
+                    --                 slot = 2,
+                    --             },
+                    --         },
+                    --     },
+                    -- },      
                 
                 },
                 SpawnCoords = {
