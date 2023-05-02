@@ -22,10 +22,13 @@ config = {
 
 -- Notification, this can be changed to whatever you want, buy default it uses ox_lib notification.
 function notify(notiTitle, notiDescription, notiType)
-    exports.ox_lib:notify({
-        title = notiTitle,
-        description = notiDescription,
-        type = notiType,
-        position = "bottom"
-    })
+    -- exports.ox_lib:notify({
+    --     title = notiTitle,
+    --     description = notiDescription,
+    --     type = notiType,
+    --     position = "bottom"
+    -- })
+    QBCore = exports['qb-core']:GetCoreObject()
+    QBCore.Functions.Notify({text = notiTitle, caption = notiDescription}, 'police', 5000)
 end
+
