@@ -31,7 +31,7 @@ Config.Stashes = {
 
         ["stasPoliceStorage"] = {
             stashName = "stasPoliceStorage",
-            coords = vector3(473.3, -985.36, 24.91), 
+            coords = vector3(474.56, -995.85, 26.27), 
             requirecid = false,
             jobrequired = true,
             gangrequired = false,

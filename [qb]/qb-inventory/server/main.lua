@@ -2146,6 +2146,19 @@ RegisterNetEvent('inventory:server:SetInventoryData', function(fromInventory, to
             else
                 QBCore.Functions.Notify(src, "You don't have enough cash..", "error")
             end
+		else
+				if Player.Functions.RemoveMoney("cash", price, "unkown-itemshop-bought-item") then
+					AddItem(src, itemData.name, fromAmount, toSlot, itemData.info)
+					QBCore.Functions.Notify(src, itemInfo["label"] .. " bought!", "success")
+					TriggerEvent("qb-log:server:CreateLog", "shops", "Shop item bought", "green", "**"..GetPlayerName(src) .. "** bought a " .. itemInfo["label"] .. " for $"..price)
+				elseif bankBalance >= price then
+					Player.Functions.RemoveMoney("bank", price, "unkown-itemshop-bought-item")
+					AddItem(src, itemData.name, fromAmount, toSlot, itemData.info)
+					QBCore.Functions.Notify(src, itemInfo["label"] .. " bought!", "success")
+					TriggerEvent("qb-log:server:CreateLog", "shops", "Shop item bought", "green", "**"..GetPlayerName(src) .. "** bought a " .. itemInfo["label"] .. " for $"..price)
+				else
+					QBCore.Functions.Notify(src, Lang:t("notify.notencash"), "error")
+				end
 		end
 		-- elseif QBCore.Shared.SplitStr(shopType, "_")[1] == "Itemshop" then
 		-- 	if Player.Functions.RemoveMoney("cash", price, "itemshop-bought-item") then
