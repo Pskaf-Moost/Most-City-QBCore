@@ -272,6 +272,14 @@ Config.Products = {
             type = "item",
             slot = 15, --change this to the same number above
         },
+        [16] = {
+            name = "megaphone",
+            price = 100, -- change to whatever you want the price to be 
+            amount = 50, -- amount available in stock
+            info = {},
+            type = "item",
+            slot = 16, --change this to the same number above
+        },
     },
     ["weedshop"] = {
         [1] = {

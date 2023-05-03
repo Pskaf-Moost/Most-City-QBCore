@@ -33,10 +33,9 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [ ] Weaponshop à remplacer https://tebex.store/qb-esx-weaponshop-qb-weaponshop-esx-weaponshop/
 - [ ] Implementer VMS_Barber
 - [ ] Shoprobbery V2 ?
-
+- [x] Mégaphone https://forum.cfx.re/t/megaphone-with-submix-and-item/5049366
 ++ : 
 
-https://forum.cfx.re/t/megaphone-with-submix-and-item/5049366
 
 https://forum.cfx.re/t/free-esx-qbcore-wasabis-portable-boombox-v2-updated-8-14-22/4885919
 
