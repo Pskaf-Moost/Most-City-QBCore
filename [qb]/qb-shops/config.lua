@@ -1,7 +1,7 @@
 Config = {}
 Config.UseTruckerJob = false -- true = The shops stock is based on when truckers refill it | false = shop inventory never runs out
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
-Config.FirearmsLicenseCheck = false -- Whether a arms dealer checks for a firearms license
+Config.FirearmsLicenseCheck = true -- Whether a arms dealer checks for a firearms license
 Config.ShopsInvJsonFile = './json/shops-inventory.json' -- json file location
 Config.SellCasinoChips = {
     coords = vector4(950.37, 34.72, 71.87, 33.82),
@@ -1260,7 +1260,7 @@ Config.Locations = {
     ["ammunation6"] = {
         ["label"] = "Ammunation",
         ["type"] = "weapon",
-        ["coords"] = vector4(23.0, -1105.67, 29.8, 162.91),
+        ["coords"] = vector4(17.52, -1107.8, 29.8, 157.96),
         ["ped"] = 's_m_y_ammucity_01',
         ["scenario"] = "WORLD_HUMAN_COP_IDLES",
         ["radius"] = 1.5,
