@@ -1680,6 +1680,15 @@ DP.Emotes = {
 }
 
 DP.PropEmotes = {
+    ["megaphone"] = {"molly@megaphone", "megaphone_clip", "Megaphone", AnimationOptions =
+    {
+        Prop = "prop_megaphone_01",
+        PropBone = 28422,
+        PropPlacement = {0.050000, 0.054000, -0.0060, -71.885498, -13.088900, -16.0242},
+        EmoteLoop = true,
+        EmoteMoving = true,
+    }},
+
 --Jim-CatCafe
 ["uwu1"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "", AnimationOptions =
 { Prop = 'uwu_sml_drink', PropBone = 28422, PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},

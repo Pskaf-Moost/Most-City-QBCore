@@ -33,3 +33,33 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [ ] Weaponshop à remplacer https://tebex.store/qb-esx-weaponshop-qb-weaponshop-esx-weaponshop/
 - [ ] Implementer VMS_Barber
 - [ ] Shoprobbery V2 ?
+
+++ : 
+
+https://forum.cfx.re/t/megaphone-with-submix-and-item/5049366
+
+https://forum.cfx.re/t/free-esx-qbcore-wasabis-portable-boombox-v2-updated-8-14-22/4885919
+
+https://forum.cfx.re/t/free-emote-menu-v1-0-2-over-1-000-emotes-with-many-features/4959268
+
+https://forum.cfx.re/t/free-qb-documents-edited-version-of-esx-documents/4917689
+
+https://forum.cfx.re/t/advanced-job-badge-id-card-expiry-feature-create-unlimited-ids-qb-esx/4999899
+
+https://forum.cfx.re/t/release-free-car-towing-system-standalone/4898845
+
+https://forum.cfx.re/t/free-lightbar-creator-control/4961013
+
+https://forum.cfx.re/t/qb-clothe-as-item/5037875/6 (besoin d'un peu de modif)
+
+https://forum.cfx.re/t/stealth-plate-flipper/5048296
+
+https://forum.cfx.re/t/free-esx-qb-fireworks/4980724
+
+https://forum.cfx.re/t/free-dingus-prop/5017149
+
+Fingerprint ? 
+
+https://forum.cfx.re/t/powers-menu/5063726
+
+https://forum.cfx.re/t/pendingsound-a-simple-utility-resource-to-allow-you-to-play-sounds-to-your-clients/5039257

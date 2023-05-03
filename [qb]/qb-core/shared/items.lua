@@ -574,8 +574,12 @@ QBShared.Items = {
 ["milk"]                        = {["name"] = "milk",                       ["label"] = "Milk",                     ["weight"] = 300,       ["type"] = "item",      ["image"] = "burger-milk.png",  ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,     ["combinable"] = nil,    ["description"] = "Carton of Milk", ['thirst'] = math.random(35, 54) },
 ["onion"]                       = {["name"] = "onion",                      ["label"] = "Onion",                    ["weight"] = 500,       ["type"] = "item",      ["image"] = "burger-onion.png", ["unique"] = false,     ["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,    ["description"] = "An onion"},
 
--- Add The Following Items To qb-core/shared/items/lua
+-- Atm Rob
 ["rope"] = {["name"] = "rope", ["label"] = "Rope", ["weight"] = 10, ["type"] = "item", ["image"] = "rope.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = ""},
 ["drill"] = {["name"] = "drill", ["label"] = "Drill", ["weight"] = 10, ["type"] = "item", ["image"] = "dhandledrill.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = ""},
+
+-- Megaphone
+
+['megaphone'] 			 	 = {['name'] = 'megaphone', 					['label'] = 'Megaphone', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'megaphone.png', 		['unique'] = false, 		['useable'] = false, 	['shouldClose'] = false,	   ['combinable'] = nil,   ['description'] = 'Megaphone'},
 
 }
