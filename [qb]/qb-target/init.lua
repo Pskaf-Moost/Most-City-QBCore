@@ -71,6 +71,30 @@ Config.CircleZones = {
 
 Config.BoxZones = {
 
+	['CQCMugshot'] = {
+		name = 'CQCMugshot',
+		coords = vector3(473.05, -1012.56, 26.90),
+		debugPoly = false,
+		length = 0.50,
+		width = 0.65,
+		heading = 131.24,
+		maxZ = 27.00,
+		minZ = 25,
+		options = {
+			{
+				icon = 'fas fa-camera',
+				label = 'Take Suspects Mugshots',
+				job = {
+					['police'] = 0,
+					['sast'] = 0,
+				},
+				event = 'cqc-mugshot:client:takemugshot',
+				type = 'client',
+			},
+		},
+		distance = 2.0,
+	},
+
 }
 
 Config.PolyZones = {
