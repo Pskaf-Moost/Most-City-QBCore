@@ -14,7 +14,7 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [x] Rajouter un marqueur map à l'emplacement du bureau du maire
 - [x] Passer le maximum de chose en FR
 - [x] Changer le bk_emote en FR (actuellement italien/anglais)
-- [ ] Faire un menu qui permet de donner le permis de port d'arme au lieu de passer par la commande /givelicense [id] [licensetype]
+- [x] ~~Faire un menu qui permet de donner le permis de port d'arme au lieu de passer par la commande /givelicense [id] [licensetype]~~ Passer par le MDT
 - [x] Ajout du script pour créer des livres personalisables 
 - [x] Trouver nouveau script pour mécanicien + ~~remorque (Peut être inutile)~~
 
