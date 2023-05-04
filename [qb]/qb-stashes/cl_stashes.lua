@@ -12,7 +12,7 @@ Citizen.CreateThread(function()
     for k, v in pairs(Config.Stashes) do
 
         local dist = #(GetEntityCoords(ped)-vector3(Config.Stashes[k].coords.x, Config.Stashes[k].coords.y, Config.Stashes[k].coords.z))
-        if dist <= 3.0 then
+        if dist <= 2.0 then
         wait = 5
         inZone  = true
 
@@ -44,6 +44,7 @@ RegisterNetEvent('qb-business:client:openStash', function(currentstash, stash)
     local PlayerJob = PlayerData.job.name
     local PlayerGang = PlayerData.gang.name
     local canOpen = false
+    local compteur = 0
 
     if Config.PoliceOpen then 
         if PlayerJob == "police" then
@@ -55,6 +56,8 @@ RegisterNetEvent('qb-business:client:openStash', function(currentstash, stash)
         if PlayerJob == Config.Stashes[currentstash].job then
             canOpen = true
         end
+    else
+        compteur = compteur + 1
     end
 
     if Config.Stashes[currentstash].requirecid then
@@ -63,12 +66,20 @@ RegisterNetEvent('qb-business:client:openStash', function(currentstash, stash)
                 canOpen = true
             end
         end
+    else 
+        compteur = compteur + 1
     end
 
     if Config.Stashes[currentstash].gangrequired then
         if PlayerGang == Config.Stashes[currentstash].gang then
             canOpen = true
         end
+    else 
+        compteur = compteur + 1
+    end
+
+    if compteur == 3 then
+        canOpen = true
     end
 
     if canOpen then 

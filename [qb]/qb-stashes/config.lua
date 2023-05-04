@@ -29,14 +29,27 @@ Config.Stashes = {
             stashSlots = 125, 
         },
 
-        ["stasPoliceStorage"] = {
-            stashName = "stasPoliceStorage",
+        ["stashPoliceStorage"] = {
+            stashName = "stashPoliceStorage",
             coords = vector3(474.56, -995.85, 26.27), 
             requirecid = false,
             jobrequired = true,
             gangrequired = false,
             gang = "",
             job = "police",
+            cid = {},  
+            stashSize = 1250000,
+            stashSlots = 125, 
+        },
+
+        ["lostmcVault"] = {
+            stashName = "lostmcVault",
+            coords = vector3(977.27, -104.0, 74.85), 
+            requirecid = false,
+            jobrequired = false,
+            gangrequired = true,
+            gang = "lostmc",
+            job = "",
             cid = {},  
             stashSize = 1250000,
             stashSlots = 125, 
