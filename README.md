@@ -23,20 +23,21 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [x] Déplacer le vendeur Casino ou le supprimer
 
 - [x] Better ID Cards
-- [ ] Tester l'interaction ID cards avec d'autres personnes
+- [x] Tester l'interaction ID cards avec d'autres personnes
 - [ ] Implémenter quelques véhicules
 - [x] Bar à chat
 - [ ] Système de gang
 - [x] Fix les tweets sur le téléphone
 - [ ] Verifier les prix + Economie 
 - [x] Changer la création du numéro de tel en plus simple
-- [ ] Weaponshop à remplacer https://tebex.store/qb-esx-weaponshop-qb-weaponshop-esx-weaponshop/
+- [ ] Pas obligatoire : Weaponshop à remplacer https://tebex.store/qb-esx-weaponshop-qb-weaponshop-esx-weaponshop/
 - [ ] Implementer VMS_Barber
 - [ ] Shoprobbery V2 ?
 - [x] Mégaphone https://forum.cfx.re/t/megaphone-with-submix-and-item/5049366
 - [x] https://forum.cfx.re/t/release-free-car-towing-system-standalone/4898845 (Marche avec certains vehicule)
-
-
+- [x] PMMS
+Important :
+https://github.com/qbcore-framework/qb-weapons/pull/155/files
 
 ++ : 
 

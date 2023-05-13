@@ -494,6 +494,53 @@ Config.Products = {
             slot = 8,
             requiresLicense = false
         },
+        [9] = {
+            name = "weapon_assaultrifle",
+            price = "3500",
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 9,
+            requiresLicense = true
+        },
+        [10] = {
+            name = "rifle_ammo",
+            price = "250",
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 10,
+            requiresLicense = true
+        },
+        [11] = {
+            name = "rifle_suppressor",
+            price = "250",
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 11,
+            requiresLicense = true
+        },
+        [12] = {
+            name = "rifle_flashlight",
+            price = "250",
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 12,
+            requiresLicense = true
+        },
+        [13] = {
+            name = "weapon_molotov",
+            price = "250",
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 13,
+            requiresLicense = true
+        },
+        
+
     },
     ["casino"] = {
         [1] = {
