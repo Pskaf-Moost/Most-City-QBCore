@@ -33,11 +33,19 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [ ] Pas obligatoire : Weaponshop à remplacer https://tebex.store/qb-esx-weaponshop-qb-weaponshop-esx-weaponshop/
 - [ ] Implementer VMS_Barber
 - [ ] Shoprobbery V2 ?
+- [ ] Implémenter la map scientifique
+- [ ] Ajouter le ped predator
 - [x] Mégaphone https://forum.cfx.re/t/megaphone-with-submix-and-item/5049366
 - [x] https://forum.cfx.re/t/release-free-car-towing-system-standalone/4898845 (Marche avec certains vehicule)
 - [x] PMMS
-Important :
+- [ ] Implémenter le bar
+
+## Important :
 https://github.com/qbcore-framework/qb-weapons/pull/155/files
+
+map scientifique https://aletomax-shop.tebex.io/package/5040883
+
+alien predator https://fr.gta5-mods.com/player/alien
 
 ++ : 
 
@@ -65,3 +73,6 @@ Fingerprint ?
 https://forum.cfx.re/t/powers-menu/5063726
 
 https://forum.cfx.re/t/pendingsound-a-simple-utility-resource-to-allow-you-to-play-sounds-to-your-clients/5039257
+
+https://ipromx.tebex.io/package/5376995
+
