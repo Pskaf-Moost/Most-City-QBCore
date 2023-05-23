@@ -1,0 +1,24 @@
+Installation Quick Tutorial for Hanako's "Combat" Hoodie 
+
+Singleplayer
+
+- Download OpenIV (https://openiv.com/)
+- Install OpenIV
+- Download Hanako's Clothes Pack Models from: https://www.lcpdfr.com/downloads/gta5mods/character/29396-eup-clothes-pack/
+- Open your download, and go into: EUP Clothes Pack V0.4\Files\Main\mp_m_freemode_01_mp_m_smuggler_01
+- Rename the YDD file called " jbib_008_u " to jbib_009_u
+- Grab the YDD file and drop it in OpenIV in the following location: (mods)\update\x64\dlcpacks\eup\dlc.rpf\x64\eup_componentpeds.rpf\mp_m_freemode_01
+- The Texture files are already included with your Package. Please do not touch those, Thank you!
+- Boom done! 
+
+FiveM
+
+THE " YTD " FILES ( AKA THE TEXTURE FILE ) IS ALREADY INCLUDED IN YOUR PACKAGE! ALL YOU NEED TO DO IS RENAME THE " YDD " FILES AND INSTALL THOSE, FOLLOWING THIS TUTORIAL!
+
+- Download Hanako's Clothes Pack Models from: https://www.lcpdfr.com/downloads/gta5mods/character/29396-eup-clothes-pack/
+- Open your download, and go into: EUP Clothes Pack V0.4\Files\Main\mp_m_freemode_01_mp_m_smuggler_01
+- Rename the YDD file called " jbib_008_u " to mp_m_freemode_01^jbib_009_u
+- Drop the renamed " YDD " file in your eup stream resource just like you did with the rest of the package!
+- The texture files you need are already included in your package, so please do not touch those! Thank you!
+- Boom done!
+

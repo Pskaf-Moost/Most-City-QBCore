@@ -1,0 +1,20 @@
+Installation Tutorial for the LSPD EUP Mega Pack
+
+FiveM
+
+Step One, The Basics:
+- Download the FiveM Ready EUP (https://forum.cfx.re/t/emergency-uniform-pack-client-server-sided-easy-install-update-5-0-announcement/97599)
+   Install EUP following the creators instructions
+
+Step Two, installing the uniforms:
+- Head into OhLiamR - LSPD EUP Mega Pack\FiveM\eup-stream
+- Drag and Drop all the files into your own eup-stream resource
+
+Step Three, the Third Party stuff:
+By now, You got the base of the Package installed. 
+-Now head into OhLiamR - LSPD EUP Mega Pack\(Required Third-Party Content
+-Install the Third Party Models, following the instructions that you can find in every folder.
+
+If you did everything correctly, now you have a fully working LSPD EUP Mega Pack installed in your Singleplayer. Congratulations! 
+
+OhLiamR

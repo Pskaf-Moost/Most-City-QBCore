@@ -40,6 +40,18 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 - [x] PMMS
 - [ ] Implémenter le bar
 
+
+# Data Broker
+
+-Informations disponibles à l'achat pour tous les joueurs via le discord : channel Data Broker
+
+-Le dealeur se fournit en drogue via ce channel : + le montant est élevé + le risque est important (Police tenu au courant). Le dealeur devra prendre les précautions nécéssaires
+-- Fournir le lieu, l'heure 
+
+-Les gens peuvent se fournir en arme auprès du Data Broker également
+
+
+
 ## Important :
 https://github.com/qbcore-framework/qb-weapons/pull/155/files
 
@@ -75,4 +87,3 @@ https://forum.cfx.re/t/powers-menu/5063726
 https://forum.cfx.re/t/pendingsound-a-simple-utility-resource-to-allow-you-to-play-sounds-to-your-clients/5039257
 
 https://ipromx.tebex.io/package/5376995
-
