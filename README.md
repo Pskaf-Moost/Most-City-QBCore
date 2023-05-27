@@ -53,9 +53,11 @@ Config : Prix gratuit pour voiture, pas de location, les 5-6 voitures de bases d
 
 
 ## Important :
-https://github.com/qbcore-framework/qb-weapons/pull/155/files
+- [x] https://github.com/qbcore-framework/qb-weapons/pull/155/files
 
-map scientifique https://aletomax-shop.tebex.io/package/5040883
+https://forum.cfx.re/t/release-carry-people-over-your-shoulder/788958
+
+- [x] map scientifique https://aletomax-shop.tebex.io/package/5040883
 
 alien predator https://fr.gta5-mods.com/player/alien
 

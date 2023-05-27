@@ -326,7 +326,23 @@ Config.Locations = {
                 PurchaseVehicles = { -- Purchasable vehicles, make sure you have the vehicle information set in qb-core > shared > vehicles.lua
                     ["Ambulance"] = {
                         Vehicle = "ambulance", -- The vehicle to spawn
-                        TotalPrice = 2500, -- The total price it costs to buy this vehicle
+                        TotalPrice = 0, -- The total price it costs to buy this vehicle
+                        Rank = 0, -- The rank required to purchase this vehicle. Set to 0 to enable all ranks
+                        VehicleSettings = { -- Everthing inside those brackets is totally optional
+                            TrunkItems = { -- Trunk items (This is optional)
+                                [1] = {
+                                    name = "bandage",
+                                    amount = 10,
+                                    info = {},
+                                    type = "item",
+                                    slot = 1,
+                                },
+                            },
+                        },
+                    }, 
+                    ["EMS Dodge Charger"] = {
+                        Vehicle = "dodgeEMS", -- The vehicle to spawn
+                        TotalPrice = 0, -- The total price it costs to buy this vehicle
                         Rank = 0, -- The rank required to purchase this vehicle. Set to 0 to enable all ranks
                         VehicleSettings = { -- Everthing inside those brackets is totally optional
                             TrunkItems = { -- Trunk items (This is optional)
@@ -342,11 +358,11 @@ Config.Locations = {
                     }, 
                 },
                 SpawnCoords = {
-                    VehicleSpawn = vector4(329.84863, -558.5644, 28.743801, 69.063636), -- Vehicle spawn and vehicle clear check coords
-                    PreviewSpawn = vector4(293.54, -609.30, 43.35, 235), -- Preview vehicle spawn coords
+                    VehicleSpawn = vector4(280.82, -604.93, 43.1, 90.96), -- Vehicle spawn and vehicle clear check coords
+                    PreviewSpawn = vector4(280.82, -604.93, 43.1, 90.96), -- Preview vehicle spawn coords
                     CheckRadius = 5.0, -- The radius the script checks for vehicle
                     CameraInformation = {
-                        CameraCoords = vector3(287.73,-604.89, 45.65), -- Vehicle preview camera coords
+                        CameraCoords = vector3(273.79, -605.14, 42.92), -- Vehicle preview camera coords
                         CameraRotation = vector3(-10.00, 0.00, 253.18), -- Vehicle preview camera rotation coords
                         CameraFOV = 70.0, -- The vehicle preview camera fov value
                     },
@@ -365,7 +381,7 @@ Config.Locations = {
                     Scenario = "WORLD_HUMAN_CLIPBOARD", -- Ped scenario. More can be found at : https://wiki.rage.mp/index.php?title=Scenarios
                 },
 				MarkerInformation = { -- If UseTarget set to false this is the required information
-                    Coords = vector3(293.54, -609.30, 45), -- The marker coords
+                    Coords = vector3(293.54, -609.30, 44), -- The marker coords
                     MarkerType = 36, -- The marker type. More can be found at : https://docs.fivem.net/docs/game-references/markers/
                     MarkerColor = { R = 255, G = 0, B = 0, A = 100 }, -- The marker color. You can pick other colors here : https://rgbacolorpicker.com/
                 },

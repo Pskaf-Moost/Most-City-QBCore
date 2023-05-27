@@ -276,6 +276,20 @@ Config.Garages = {
         ["job"] = "police",
         ["jobType"] = "leo"
     },
+    ["ambulance"] = {
+        ["label"] = "Ambulance",
+        ["takeVehicle"] = vector3(290.79, -588.71, 43.19),
+        ["spawnPoint"] = vector4(285.3, -602.94, 43.19, 105.48),
+        ["putVehicle"] = vector3(277.4, -604.6, 43.01),
+        ["showBlip"] = false,
+        ["blipName"] = "Ambulance",
+        ["blipNumber"] = 357,
+        ["blipColor"] = 3,
+        ["type"] = "job",                --public, job, gang, depot
+        ["vehicle"] = "car",              --car, air, sea, rig
+        ["job"] = "ambulance",
+        ["jobType"] = "ems"
+    },
     ["intairport"] = {
         ["label"] = "Airport Hangar",
         ["takeVehicle"] = vector3(-1025.92, -3017.86, 13.95),

@@ -3,6 +3,61 @@ QBShared = QBShared or {}
 QBShared.Vehicles = {
     --- Compacts
 
+    ['12hiace'] = {
+        ['name'] = 'Toyota Hiace',
+        ['brand'] = 'Toyota',
+        ['model'] = '12hiace',
+        ['price'] = 12000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `12hiace`,
+        ['shop'] = 'pdm',
+    },
+
+    ['macanpd600m'] = {
+        ['name'] = 'Porsche Macan',
+        ['brand'] = 'Porsche',
+        ['model'] = 'macanpd600m',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `macanpd600m`,
+        ['shop'] = 'pdm',
+    },
+
+    ['rs6abt20'] = {
+        ['name'] = 'Audi RS6',
+        ['brand'] = 'Audi',
+        ['model'] = 'rs6abt20',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `rs6abt20`,
+        ['shop'] = 'pdm',
+    },
+
+    ['tiguan'] = {
+        ['name'] = 'Volkswagen Tiguan',
+        ['brand'] = 'Volkswagen',
+        ['model'] = 'tiguan',
+        ['price'] = 18000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `tiguan`,
+        ['shop'] = 'pdm',
+    },
+
+    ['q820'] = {
+        ['name'] = 'Audi Q8',
+        ['brand'] = 'Audi',
+        ['model'] = 'q820',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `q820`,
+        ['shop'] = 'pdm',
+    },
+
     ['wrx19'] = {
         ['name'] = 'WRX 2019',
         ['brand'] = 'Subaru',
@@ -11,6 +66,17 @@ QBShared.Vehicles = {
         ['category'] = 'compacts',
         ["categoryLabel"] = 'Compacts',
         ['hash'] = `wrx19`,
+        ['shop'] = 'pdm',
+    },
+
+    ['dodgeEMS'] = {
+        ['name'] = 'EMS Dodge Charger',
+        ['brand'] = 'Dodge',
+        ['model'] = 'dodgeEMS',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `dodgeEMS`,
         ['shop'] = 'pdm',
     },
 
@@ -44,16 +110,6 @@ QBShared.Vehicles = {
         ['category'] = 'compacts',
         ["categoryLabel"] = 'Compacts',
         ['hash'] = `e63sf`,
-        ['shop'] = 'pdm',
-    },
-    ['rs615'] = {
-        ['name'] = 'RS6',
-        ['brand'] = 'Audi',
-        ['model'] = 'rs615',
-        ['price'] = 30000,
-        ['category'] = 'compacts',
-        ["categoryLabel"] = 'Compacts',
-        ['hash'] = `rs615`,
         ['shop'] = 'pdm',
     },
 
