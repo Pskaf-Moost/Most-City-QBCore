@@ -33,13 +33,6 @@ Config.MenuItems = {
                 event = 'qb-drugs:client:cornerselling',
                 shouldClose = true
             }, {
-                id = 'togglehotdogsell',
-                title = 'Hotdog Selling',
-                icon = 'hotdog',
-                type = 'client',
-                event = 'qb-hotdogjob:client:ToggleSell',
-                shouldClose = true
-            }, {
                 id = 'interactions',
                 title = 'Interaction',
                 icon = 'triangle-exclamation',
@@ -103,70 +96,88 @@ Config.MenuItems = {
         title = 'General',
         icon = 'rectangle-list',
         items = {
+            -- {
+            --     id = 'house',
+            --     title = 'House Interaction',
+            --     icon = 'house',
+            --     items = {
+            --         {
+            --             id = 'givehousekey',
+            --             title = 'Give House Keys',
+            --             icon = 'key',
+            --             type = 'client',
+            --             event = 'qb-houses:client:giveHouseKey',
+            --             shouldClose = true
+            --         }, {
+            --             id = 'removehousekey',
+            --             title = 'Remove House Keys',
+            --             icon = 'key',
+            --             type = 'client',
+            --             event = 'qb-houses:client:removeHouseKey',
+            --             shouldClose = true
+            --         }, {
+            --             id = 'togglelock',
+            --             title = 'Toggle Doorlock',
+            --             icon = 'door-closed',
+            --             type = 'client',
+            --             event = 'qb-houses:client:toggleDoorlock',
+            --             shouldClose = true
+            --         }, {
+            --             id = 'decoratehouse',
+            --             title = 'Decorate House',
+            --             icon = 'box',
+            --             type = 'client',
+            --             event = 'qb-houses:client:decorate',
+            --             shouldClose = true
+            --         }, {
+            --             id = 'houseLocations',
+            --             title = 'Interaction Locations',
+            --             icon = 'house',
+            --             items = {
+            --                 {
+            --                     id = 'setstash',
+            --                     title = 'Set Stash',
+            --                     icon = 'box-open',
+            --                     type = 'client',
+            --                     event = 'qb-houses:client:setLocation',
+            --                     shouldClose = true
+            --                 }, {
+            --                     id = 'setoutift',
+            --                     title = 'Set Wardrobe',
+            --                     icon = 'shirt',
+            --                     type = 'client',
+            --                     event = 'qb-houses:client:setLocation',
+            --                     shouldClose = true
+            --                 }, {
+            --                     id = 'setlogout',
+            --                     title = 'Set Logout',
+            --                     icon = 'door-open',
+            --                     type = 'client',
+            --                     event = 'qb-houses:client:setLocation',
+            --                     shouldClose = true
+            --                 }
+            --             }
+            --         }
+            --     }
+            -- }, 
+            
             {
-                id = 'house',
-                title = 'House Interaction',
-                icon = 'house',
-                items = {
-                    {
-                        id = 'givehousekey',
-                        title = 'Give House Keys',
-                        icon = 'key',
-                        type = 'client',
-                        event = 'qb-houses:client:giveHouseKey',
-                        shouldClose = true
-                    }, {
-                        id = 'removehousekey',
-                        title = 'Remove House Keys',
-                        icon = 'key',
-                        type = 'client',
-                        event = 'qb-houses:client:removeHouseKey',
-                        shouldClose = true
-                    }, {
-                        id = 'togglelock',
-                        title = 'Toggle Doorlock',
-                        icon = 'door-closed',
-                        type = 'client',
-                        event = 'qb-houses:client:toggleDoorlock',
-                        shouldClose = true
-                    }, {
-                        id = 'decoratehouse',
-                        title = 'Decorate House',
-                        icon = 'box',
-                        type = 'client',
-                        event = 'qb-houses:client:decorate',
-                        shouldClose = true
-                    }, {
-                        id = 'houseLocations',
-                        title = 'Interaction Locations',
-                        icon = 'house',
-                        items = {
-                            {
-                                id = 'setstash',
-                                title = 'Set Stash',
-                                icon = 'box-open',
-                                type = 'client',
-                                event = 'qb-houses:client:setLocation',
-                                shouldClose = true
-                            }, {
-                                id = 'setoutift',
-                                title = 'Set Wardrobe',
-                                icon = 'shirt',
-                                type = 'client',
-                                event = 'qb-houses:client:setLocation',
-                                shouldClose = true
-                            }, {
-                                id = 'setlogout',
-                                title = 'Set Logout',
-                                icon = 'door-open',
-                                type = 'client',
-                                event = 'qb-houses:client:setLocation',
-                                shouldClose = true
-                            }
-                        }
-                    }
-                }
-            }, {
+                id = 'mediamenu',
+                title = 'Menu Media',
+                icon = 'radio',
+                type = 'client',
+                event = 'pmms:showControls',
+                shouldClose = true
+            }, 
+            {
+                id = 'mestenues',
+                title = 'Mes Tenues',
+                icon = 'shirt',
+                type = 'client',
+                event = 'qb-clothing:client:openOutfitMenu',
+                shouldClose = true
+            }, 
+            {
                 id = 'clothesmenu',
                 title = 'Clothing',
                 icon = 'shirt',
@@ -295,7 +306,23 @@ Config.MenuItems = {
             }
         }
     },
-}
+    [3] = {
+        id = 'facturation',
+        title = 'Facturation',
+        icon = 'user',
+        items = {
+            {
+                id = 'facturation',
+                title = 'Créer une facture',
+                icon = 'address-book',
+                type = 'client',
+                event = 'jim-payments:client:Charge',
+                shouldClose = true
+            }, 
+            }
+        }
+    }
+    
 
 Config.VehicleDoors = {
     id = 'vehicledoors',

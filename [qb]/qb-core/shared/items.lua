@@ -117,7 +117,7 @@ QBShared.Items = {
 	['weapon_pipebomb'] 			 = {['name'] = 'weapon_pipebomb', 		 	  	['label'] = 'Pipe Bomb', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_pipebomb.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A homemade bomb, the components of which are contained in a pipe'},
 	['weapon_ball'] 				 = {['name'] = 'weapon_ball', 			 	  	['label'] = 'Ball', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_BALL',				['image'] = 'weapon_ball.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'A solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game'},
 	['weapon_smokegrenade'] 		 = {['name'] = 'weapon_smokegrenade', 	      	['label'] = 'Smoke Grenade', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_gas.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'A Smoke Grenade'},
-	['weapon_flare'] 				 = {['name'] = 'weapon_flare', 			 	  	['label'] = 'Flare pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_FLARE',			['image'] = 'weapon_flare.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small pyrotechnic devices used for illumination and signalling'},
+	['weapon_flare'] 				 = {['name'] = 'weapon_flare', 			 	  	['label'] = 'Flare pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_flare.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small pyrotechnic devices used for illumination and signalling'},
 
 	-- Miscellaneous
 	['weapon_petrolcan'] 			 = {['name'] = 'weapon_petrolcan', 		 	  	['label'] = 'Petrol Can', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PETROLCAN',		['image'] = 'weapon_petrolcan.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A robust liquid container made from pressed steel'},
@@ -395,11 +395,6 @@ QBShared.Items = {
 	['printerdocument'] 			 = {['name'] = 'printerdocument', 				['label'] = 'Document', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice document'},
 	
 	
-	
-	--Books
-	['guide'] 				 	 = {['name'] = 'guide', 			  	  	['label'] = 'Server Guide', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Un livre'},
-	['lstimes'] 				 	 = {['name'] = 'lstimes', 			  	  	['label'] = 'LS Times', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 1 !'},
-	
 	--Chair
 	['portablechair'] 				 = {['name'] = 'portablechair', 				['label'] = 'Portable Chair', 			['weight'] = 500, 			['type'] = 'item', 		['image'] = 'portablechair.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   	['combinable'] = nil,   ['description'] = 'Un peu de repos'},
 
@@ -625,4 +620,16 @@ QBShared.Items = {
 
 	["crisps"] 						= {["name"] = "crisps",  	    			["label"] = "Crisps",					["weight"] = 100, 		["type"] = "item", 		["image"] = "chips.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(20, 30) },
 
+-- Keys
+	["mafiakey"] 						= {["name"] = "mafiakey",  	    			["label"] = "Clé de la Villa",					["weight"] = 5, 		["type"] = "item", 		["image"] = "keys.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Un trousseau de clef" },
+	["oeufkey"] 						= {["name"] = "oeufkey",  	    			["label"] = "Clé de la pièce sécurisé",					["weight"] = 5, 		["type"] = "item", 		["image"] = "keys.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Un trousseau de clef" },
+    ["catkey"] 						= {["name"] = "catkey",  	    			["label"] = "Clé du Cat Coffee",					["weight"] = 5, 		["type"] = "item", 		["image"] = "keys.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Un trousseau de clef" },
+    ["localkey"] 						= {["name"] = "localkey",  	    			["label"] = "Clé du local Ballas",					["weight"] = 5, 		["type"] = "item", 		["image"] = "keys.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Un trousseau de clef" },
+       
+
+	--Books
+	['guide'] 				 	 = {['name'] = 'guide', 			  	  	['label'] = 'Server Guide', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Un livre'},
+	['lstimes'] 				 	 = {['name'] = 'lstimes', 			  	  	['label'] = 'LS Times', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 1 !'},
+	['lstimes2'] 				 	 = {['name'] = 'lstimes2', 			  	  	['label'] = 'LS Times 2', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 2 !'},
+	
 }

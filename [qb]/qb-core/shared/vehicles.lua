@@ -3,6 +3,16 @@ QBShared = QBShared or {}
 QBShared.Vehicles = {
     --- Compacts
 
+    ['towtruck2'] = {
+        ['name'] = 'Dépanneuse',
+        ['brand'] = 'Toyota',
+        ['model'] = 'towtruck2',
+        ['price'] = 12000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `towtruck2`,
+    },
+
     ['12hiace'] = {
         ['name'] = 'Toyota Hiace',
         ['brand'] = 'Toyota',
