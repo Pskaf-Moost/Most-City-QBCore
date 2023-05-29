@@ -625,10 +625,11 @@ QBShared.Items = {
 	["oeufkey"] 						= {["name"] = "oeufkey",  	    			["label"] = "Clé de la pièce sécurisé",					["weight"] = 5, 		["type"] = "item", 		["image"] = "keys.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Un trousseau de clef" },
     ["catkey"] 						= {["name"] = "catkey",  	    			["label"] = "Clé du Cat Coffee",					["weight"] = 5, 		["type"] = "item", 		["image"] = "keys.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Un trousseau de clef" },
     ["localkey"] 						= {["name"] = "localkey",  	    			["label"] = "Clé du local Ballas",					["weight"] = 5, 		["type"] = "item", 		["image"] = "keys.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Un trousseau de clef" },
-       
+    ["mayorkey"] 						= {["name"] = "mayorkey",  	    			["label"] = "Clé du bureau du maire",					["weight"] = 5, 		["type"] = "item", 		["image"] = "keys.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Un trousseau de clef" },
+          
 
 	--Books
-	['guide'] 				 	 = {['name'] = 'guide', 			  	  	['label'] = 'Server Guide', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Un livre'},
+	['notesecrete'] 				 	 = {['name'] = 'notesecrete', 			  	  	['label'] = 'Une Note Secrète', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Une note secrète'},
 	['lstimes'] 				 	 = {['name'] = 'lstimes', 			  	  	['label'] = 'LS Times', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 1 !'},
 	['lstimes2'] 				 	 = {['name'] = 'lstimes2', 			  	  	['label'] = 'LS Times 2', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 2 !'},
 	

@@ -8,8 +8,9 @@ Config.DoorList['mayorDoor-mayor_entrance'] = {
         {objName = 220394186, objYaw = 185.99998474122, objCoords = vec3(-140.697266, -626.208252, 168.975616)}
     },
     distance = 2,
-    authorizedJobs = { ['mayor'] = 0 },
+    --authorizedJobs = { ['mayor'] = 0 },
     pickable = true,
+    items = { ['mayorkey'] = 1 },
     doorLabel = 'Double Porte Bureau Maires',
     doorRate = 1.0,
     doorType = 'double',

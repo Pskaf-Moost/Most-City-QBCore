@@ -12,9 +12,9 @@ Config.FrameworkTriggers = {
 -- When creating any book remember that page1 should be the Cover and last page the backCover
 
 Config.Items = {                     -- Add and create here your items, Your imagination is the Limi!!  The images uploaded to pages must have exactly the same name of your ['guide'] name item
-    ['guide'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
-        name = 'Server Guide',           -- this is just for your info, use what you want inside of ''
-        numberOfPages = 8,               -- Must be the exact number of pages you made for that book.
+    ['notesecrete'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
+        name = 'Une note secrète',           -- this is just for your info, use what you want inside of ''
+        numberOfPages = 3,               -- Must be the exact number of pages you made for that book.
     },
     ['police_guide'] = {
         name = 'Police Guide',
@@ -30,6 +30,6 @@ Config.Items = {                     -- Add and create here your items, Your ima
     },
     ['lstimes2'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
         name = 'LS Times 2',           -- this is just for your info, use what you want inside of ''
-        numberOfPages = 6,               -- Must be the exact number of pages you made for that book.
+        numberOfPages = 4,               -- Must be the exact number of pages you made for that book.
     },
 }
