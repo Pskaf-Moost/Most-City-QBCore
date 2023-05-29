@@ -7,11 +7,11 @@ Config.Locations = {
     },
     ["inside"] = {
         label = "Weazle News HQ Inside",
-        coords = vector4(-77.46, -833.77, 243.38, 67.5),
+        coords = vector4(-587.97, -933.55, 25.26, 301.87),
     },
     ["outside"] = {
         label = "Weazle News HQ Outside",
-        coords = vector4(-598.25, -929.86, 23.86, 86.5),
+        coords = vector4(-568.81, -927.62, 36.83, 86.0),
     },
     ["vehicle"] = {
         label = "Vehicle Storage",
