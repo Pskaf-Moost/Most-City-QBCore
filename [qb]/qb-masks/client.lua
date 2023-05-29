@@ -12,7 +12,7 @@ RegisterNetEvent('masks:client:terror', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 57, 0)
+            SetPedComponentVariation(ped, 1, 92, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -74,7 +74,7 @@ RegisterNetEvent('masks:client:blackbandana', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 51, 0)
+            SetPedComponentVariation(ped, 1, 17, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -105,7 +105,7 @@ RegisterNetEvent('masks:client:tshirtmask', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 54, 0)
+            SetPedComponentVariation(ped, 1, 111, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -136,7 +136,7 @@ RegisterNetEvent('masks:client:scarecrowmask', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 69, 0)
+            SetPedComponentVariation(ped, 1, 126, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -421,7 +421,7 @@ RegisterNetEvent('masks:client:silver', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 16, 0)
+            SetPedComponentVariation(ped, 1, 72, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -549,7 +549,7 @@ RegisterNetEvent('masks:client:sok', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 32, 0)
+            SetPedComponentVariation(ped, 1, 89, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -581,7 +581,7 @@ RegisterNetEvent('masks:client:zak', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 49, 0)
+            SetPedComponentVariation(ped, 1, 106, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -805,7 +805,7 @@ RegisterNetEvent('masks:client:paard', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 97, 0)
+            SetPedComponentVariation(ped, 1, 154, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -837,7 +837,7 @@ RegisterNetEvent('masks:client:paardu', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 98, 0)
+            SetPedComponentVariation(ped, 1, 155, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -869,7 +869,7 @@ RegisterNetEvent('masks:client:skullr', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 99, 0)
+            SetPedComponentVariation(ped, 1, 156, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -933,7 +933,7 @@ RegisterNetEvent('masks:client:helm1', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedPropIndex(ped, 0, 51, 0)
+            SetPedPropIndex(ped, 0, 91, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -1029,7 +1029,7 @@ RegisterNetEvent('masks:client:helm4', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedPropIndex(ped, 0, 50, 1)
+            SetPedPropIndex(ped, 0, 268, 1)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
@@ -1093,7 +1093,7 @@ RegisterNetEvent('masks:client:helm6', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedPropIndex(ped, 0, 67, 0)
+            SetPedPropIndex(ped, 0, 108, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})

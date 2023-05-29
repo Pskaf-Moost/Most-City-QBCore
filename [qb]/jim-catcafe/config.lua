@@ -7,7 +7,7 @@ Config = {
 
 	PatHeal = 2, 			--how much you are healed by patting a cat, 2 hp seems resonable, enough not to be over powered and enough to draw people in.
 							--set to 0 if you don't want to use this
-	RelieveStress = 5,		-- How much stress relief per pat
+	RelieveStress = 30,		-- How much stress relief per pat
 
 	Core = "qb-core", -- set this to your core folder
 	Inv = "qb", -- set to "ox" if using OX Inventory
