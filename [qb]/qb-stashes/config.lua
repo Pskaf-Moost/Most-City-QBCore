@@ -84,6 +84,19 @@ Config.Stashes = {
         ["StashMafia"] = {
             stashName = "StashMafia",
             coords = vector3(-134.53, 924.31, 235.99), 
+            requirecid = true,
+            jobrequired = false,
+            gangrequired = false,
+            gang = "",
+            job = "",
+            cid = {"NPH01040"},  
+            stashSize = 1250000,
+            stashSlots = 125, 
+        },
+
+        ["StashScience"] = {
+            stashName = "StashScience",
+            coords = vector3(3528.28, 3645.18, 27.51), 
             requirecid = false,
             jobrequired = false,
             gangrequired = false,

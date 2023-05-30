@@ -3,7 +3,26 @@ QBShared = QBShared or {}
 QBShared.Vehicles = {
     --- Compacts
 
+    ['poldom'] = {
+        ['name'] = 'GTX Police',
+        ['brand'] = 'Vapid',
+        ['model'] = 'poldom',
+        ['price'] = 45000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `poldom`,
+    },
 
+    ['tmax'] = {
+        ['name'] = 'Yamaha T-Max',
+        ['brand'] = 'Yamaha',
+        ['model'] = 'tmax',
+        ['price'] = 45000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `tmax`,
+        ['shop'] = 'pdm',
+    },
     ['bmgolfr'] = {
         ['name'] = 'Golf R MK7',
         ['brand'] = 'VolksWagen',
@@ -142,6 +161,17 @@ QBShared.Vehicles = {
         ['category'] = 'compacts',
         ["categoryLabel"] = 'Compacts',
         ['hash'] = `dodgeEMS`,
+        ['shop'] = 'pdm',
+    },
+
+    ['ambulance'] = {
+        ['name'] = 'EMS Ambulance',
+        ['brand'] = 'Ford',
+        ['model'] = 'ambulance',
+        ['price'] = 30000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `ambulance`,
         ['shop'] = 'pdm',
     },
 

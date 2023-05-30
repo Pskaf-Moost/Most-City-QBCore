@@ -105,40 +105,40 @@ Config.MinimumDrugSalePolice = 0
 
 Config.DrugsPrice = {
     ["weed_white-widow"] = {
-        min = 15,
-        max = 24,
+        min = 1500,
+        max = 2000,
     },
     ["weed_og-kush"] = {
-        min = 15,
-        max = 28,
+        min = 1500,
+        max = 2000,
     },
     ["weed_skunk"] = {
-        min = 15,
-        max = 31,
+        min = 1500,
+        max = 2000,
     },
     ["weed_amnesia"] = {
-        min = 18,
-        max = 34,
+        min = 1500,
+        max = 2000,
     },
     ["weed_purple-haze"] = {
-        min = 18,
-        max = 37,
+        min = 1500,
+        max = 2000,
     },
     ["weed_ak47"] = {
-        min = 18,
-        max = 40,
+        min = 1500,
+        max = 2000,
     },
     ["crack_baggy"] = {
-        min = 18,
-        max = 34,
+        min = 1500,
+        max = 2000,
     },
     ["cokebaggy"] = {
-        min = 18,
-        max = 37,
+        min = 1500,
+        max = 2000,
     },
     ["meth"] = {
-        min = 18,
-        max = 40,
+        min = 1500,
+        max = 2000,
     },
 }
 

@@ -14,7 +14,7 @@ Config.FrameworkTriggers = {
 Config.Items = {                     -- Add and create here your items, Your imagination is the Limi!!  The images uploaded to pages must have exactly the same name of your ['guide'] name item
     ['notesecrete'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
         name = 'Une note secrète',           -- this is just for your info, use what you want inside of ''
-        numberOfPages = 3,               -- Must be the exact number of pages you made for that book.
+        numberOfPages = 2,               -- Must be the exact number of pages you made for that book.
     },
     ['police_guide'] = {
         name = 'Police Guide',
@@ -31,5 +31,9 @@ Config.Items = {                     -- Add and create here your items, Your ima
     ['lstimes2'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
         name = 'LS Times 2',           -- this is just for your info, use what you want inside of ''
         numberOfPages = 4,               -- Must be the exact number of pages you made for that book.
+    },
+    ['science1'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
+        name = 'Rapport 1',           -- this is just for your info, use what you want inside of ''
+        numberOfPages = 2,               -- Must be the exact number of pages you made for that book.
     },
 }

@@ -1,0 +1,13 @@
+in your server files, open: [qb] > qb-core > shared > items.lua
+
+and add this line to the bottom:
+['pd_tracker'] 				 		 = {['name'] = 'pd_tracker', 			    		['label'] = 'Vehicle Tracking Device', 					    ['weight'] = 20, 	['type'] = 'item', 		['image'] = 'tracker.png',      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Place this on a vehicle to track it.'},
+['pd_adpt_tracker'] 				 = {['name'] = 'pd_adpt_tracker', 			    	['label'] = 'Adept Vehicle Tracking Device', 				['weight'] = 20, 	['type'] = 'item', 		['image'] = 'tracker.png',      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Place this on a vehicle to track it. Adept Quality'},
+['pd_adv_tracker'] 				 	 = {['name'] = 'pd_adv_tracker', 			    	['label'] = 'Advanced Vehicle Tracking Device', 			['weight'] = 20, 	['type'] = 'item', 		['image'] = 'tracker.png',      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Place this on a vehicle to track it. Advanced Quality'},
+['pd_mili_tracker'] 				 = {['name'] = 'pd_mili_tracker', 			    	['label'] = 'Military Vehicle Tracking Device', 			['weight'] = 20, 	['type'] = 'item', 		['image'] = 'tracker.png',      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Place this on a vehicle to track it. Military Quality'},
+['pd_scanner'] 				 		 = {['name'] = 'pd_scanner', 			    		['label'] = 'Vehicle Tracking Device Scanner', 				['weight'] = 20, 	['type'] = 'item', 		['image'] = 'scanner.png',      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Use this to scan for vehicle trackers'},
+['pd_screwdriver'] 				 	 = {['name'] = 'pd_screwdriver', 			    	['label'] = 'Screwdriver', 					                ['weight'] = 1, 	['type'] = 'item', 		['image'] = 'screwdriver.png',  ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Required to install or remove Vehicle Tracking Devices'},
+['pd_jammer'] 				 		 = {['name'] = 'pd_jammer', 			    		['label'] = 'Vehicle Tracking Device Jammer', 				['weight'] = 20, 	['type'] = 'item', 		['image'] = 'jammer.png',       ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Jam the signal of Vehicle Tracking Devices.'},
+
+
+Put the pngs located in this folder in: [qb] > qb-inventory > html > images

@@ -167,16 +167,15 @@ Config.Products = {
             slot = 3,
         },
         [4] = {
-            name = "repairkit",
+            name = "pd_scanner",
             price = 1500,
             amount = 50,
             info = {},
             type = "item",
             slot = 4,
-            requiredJob = { "mechanic" }
         },
         [5] = {
-            name = "screwdriverset",
+            name = "pd_screwdriver",
             price = 350,
             amount = 50,
             info = {},
@@ -207,23 +206,23 @@ Config.Products = {
             type = "item",
             slot = 8,
         },
+        -- [9] = {
+        --     name = "firework1",
+        --     price = 50,
+        --     amount = 50,
+        --     info = {},
+        --     type = "item",
+        --     slot = 9,
+        -- },
+        -- [10] = {
+        --     name = "firework2",
+        --     price = 50,
+        --     amount = 50,
+        --     info = {},
+        --     type = "item",
+        --     slot = 10,
+        -- },
         [9] = {
-            name = "firework1",
-            price = 50,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 9,
-        },
-        [10] = {
-            name = "firework2",
-            price = 50,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 10,
-        },
-        [11] = {
             name = "rope",
             price = 50,
             amount = 50,
@@ -231,7 +230,7 @@ Config.Products = {
             type = "item",
             slot = 11,
         },
-        [12] = {
+        [10] = {
             name = "drill",
             price = 200,
             amount = 50,
@@ -239,7 +238,7 @@ Config.Products = {
             type = "item",
             slot = 12,
         },
-        [13] = {
+        [11] = {
             name = "fitbit",
             price = 400,
             amount = 150,
@@ -247,7 +246,7 @@ Config.Products = {
             type = "item",
             slot = 13,
         },
-        [14] = {
+        [12] = {
             name = "cleaningkit",
             price = 150,
             amount = 150,
@@ -264,7 +263,7 @@ Config.Products = {
         --     slot = 15,
         --     requiredJob = { "mechanic" }
         -- },
-        [15] = {
+        [13] = {
             name = "portablechair",
             price = 100, -- change to whatever you want the price to be 
             amount = 50, -- amount available in stock
@@ -272,7 +271,7 @@ Config.Products = {
             type = "item",
             slot = 15, --change this to the same number above
         },
-        [16] = {
+        [14] = {
             name = "megaphone",
             price = 100, -- change to whatever you want the price to be 
             amount = 50, -- amount available in stock
@@ -451,7 +450,7 @@ Config.Products = {
         },
         [4] = {
             name = "weapon_pistol",
-            price = 2500,
+            price = 90000,
             amount = 5,
             info = {},
             type = "item",
@@ -469,7 +468,7 @@ Config.Products = {
         },
         [6] = {
             name = "weapon_vintagepistol",
-            price = 4000,
+            price = 70000,
             amount = 5,
             info = {},
             type = "item",
@@ -494,49 +493,49 @@ Config.Products = {
             slot = 8,
             requiresLicense = false
         },
+        -- [9] = {
+        --     name = "weapon_assaultrifle",
+        --     price = "3500",
+        --     amount = 250,
+        --     info = {},
+        --     type = "item",
+        --     slot = 9,
+        --     requiresLicense = true
+        -- },
+        -- [10] = {
+        --     name = "rifle_ammo",
+        --     price = "250",
+        --     amount = 250,
+        --     info = {},
+        --     type = "item",
+        --     slot = 10,
+        --     requiresLicense = true
+        -- },
+        -- [11] = {
+        --     name = "rifle_suppressor",
+        --     price = "250",
+        --     amount = 250,
+        --     info = {},
+        --     type = "item",
+        --     slot = 11,
+        --     requiresLicense = true
+        -- },
+        -- [12] = {
+        --     name = "rifle_flashlight",
+        --     price = "250",
+        --     amount = 250,
+        --     info = {},
+        --     type = "item",
+        --     slot = 12,
+        --     requiresLicense = true
+        -- },
         [9] = {
-            name = "weapon_assaultrifle",
-            price = "3500",
-            amount = 250,
-            info = {},
-            type = "item",
-            slot = 9,
-            requiresLicense = true
-        },
-        [10] = {
-            name = "rifle_ammo",
-            price = "250",
-            amount = 250,
-            info = {},
-            type = "item",
-            slot = 10,
-            requiresLicense = true
-        },
-        [11] = {
-            name = "rifle_suppressor",
-            price = "250",
-            amount = 250,
-            info = {},
-            type = "item",
-            slot = 11,
-            requiresLicense = true
-        },
-        [12] = {
-            name = "rifle_flashlight",
-            price = "250",
-            amount = 250,
-            info = {},
-            type = "item",
-            slot = 12,
-            requiresLicense = true
-        },
-        [13] = {
             name = "weapon_molotov",
             price = "250",
             amount = 250,
             info = {},
             type = "item",
-            slot = 13,
+            slot = 9,
             requiresLicense = true
         },
         
