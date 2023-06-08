@@ -412,6 +412,19 @@ QBShared.Items = {
 		["description"] = "Une odeur forte émane de cette bouteille"
 	 },
 
+	 ["catpotion"] = {
+		["name"] = "catpotion",
+		["label"] = "Une Etrange bouteille",
+		["weight"] = 125,
+		["type"] = "item",
+		["image"] = "dogpotion.png",
+		["unique"] = true,
+		["useable"] = true,
+		["shouldClose"] = true,
+		["combinable"] = nil,
+		["description"] = "Une odeur de croquette forte émane de cette bouteille"
+	 },
+
 	 -------MASK
 	['terror']  						  = {['name'] = 'terror', 				    ['label'] = 'Balaclava',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_57.png',  			['unique'] = false,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
 	['hockeymask']  						= {['name'] = 'hockeymask', 				  ['label'] = 'Hockeymask',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_4.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
@@ -633,6 +646,8 @@ QBShared.Items = {
 	['lstimes'] 				 	 = {['name'] = 'lstimes', 			  	  	['label'] = 'LS Times', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 1 !'},
 	['lstimes2'] 				 	 = {['name'] = 'lstimes2', 			  	  	['label'] = 'LS Times 2', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 2 !'},
 	['science1'] 				 	 = {['name'] = 'science1', 			  	  	['label'] = 'Rapport Scientifique N°1', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Un rapport scientifique'},
+	['lstimes3'] 				 	 = {['name'] = 'lstimes3', 			  	  	['label'] = 'LS Times 3', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 3 !'},
+	['lstimes4'] 				 	 = {['name'] = 'lstimes4', 			  	  	['label'] = 'LS Times 4', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Le Los Santos Times : Edition 4 !'},
 	
 
 	--tracker
@@ -644,5 +659,8 @@ QBShared.Items = {
 	['pd_screwdriver'] 				 	 = {['name'] = 'pd_screwdriver', 			    	['label'] = 'Screwdriver', 					                ['weight'] = 1, 	['type'] = 'item', 		['image'] = 'screwdriver.png',  ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Required to install or remove Vehicle Tracking Devices'},
 	['pd_jammer'] 				 		 = {['name'] = 'pd_jammer', 			    		['label'] = 'Vehicle Tracking Device Jammer', 				['weight'] = 20, 	['type'] = 'item', 		['image'] = 'jammer.png',       ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Jam the signal of Vehicle Tracking Devices.'},
 
+	['documents'] 				 	 = {['name'] = 'documents', 			  	  	['label'] = 'Documents', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 			['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Des documents'},
+
+	['oeufalien'] 			 	 = {['name'] = 'oeufalien', 			  	['label'] = 'Artefact Alien', 			['weight'] = 10, 		['type'] = 'item', 		['image'] = 'oeuf.png', 		['unique'] = true, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil ,  ['description'] = 'Un Artefact Extraterrestre'},
 
 }

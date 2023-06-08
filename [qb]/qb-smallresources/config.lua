@@ -252,41 +252,41 @@ Config.Objects = { -- for object removal
 -- You may add more than 2 selections and it will bring up a menu for the player to select which floor be sure to label each section though
 Config.Teleports = {
     --Elevator @ labs
-    [1] = {
-        [1] = { -- up label
-            ['poly'] = {
-                coords = vector3(3540.74, 3675.59, 20.99),
-                heading = 167.5,
-                length = 2,
-                width = 2
-            },
-            ["AllowVehicle"] = false,
-            label = false -- set this to a string for a custom label or leave it false to keep the default
+    -- [1] = {
+    --     [1] = { -- up label
+    --         ['poly'] = {
+    --             coords = vector3(3540.74, 3675.59, 20.99),
+    --             heading = 167.5,
+    --             length = 2,
+    --             width = 2
+    --         },
+    --         ["AllowVehicle"] = false,
+    --         label = false -- set this to a string for a custom label or leave it false to keep the default
 
-        },
-        [2] = { -- down label
-            ['poly'] = {
-                coords = vector3(3540.74, 3675.59, 28.11),
-                heading = 172.5,
-                length = 2,
-                width = 2
-            },
-            ["AllowVehicle"] = false,
-            label = false
-        },
-        -- [3] = { 
-        --     ['poly'] = {
-        --         coords = vector3(0.0, 0.0, 0.0),
-        --         heading = 0.0,
-        --         length = 0,
-        --         width = 0
-        --     },
-        --     ["AllowVehicle"] = false,
-        --     label = 'be sure to label all sections if more than 2'
-        -- },
-    },
+    --     },
+    --     [2] = { -- down label
+    --         ['poly'] = {
+    --             coords = vector3(3540.74, 3675.59, 28.11),
+    --             heading = 172.5,
+    --             length = 2,
+    --             width = 2
+    --         },
+    --         ["AllowVehicle"] = false,
+    --         label = false
+    --     },
+    --     -- [3] = { 
+    --     --     ['poly'] = {
+    --     --         coords = vector3(0.0, 0.0, 0.0),
+    --     --         heading = 0.0,
+    --     --         length = 0,
+    --     --         width = 0
+    --     --     },
+    --     --     ["AllowVehicle"] = false,
+    --     --     label = 'be sure to label all sections if more than 2'
+    --     -- },
+    -- },
     --Coke Processing Enter/Exit
-    [2] = {
+    [1] = {
         [1] = {
             ['poly'] = {
                 coords = vector3(909.49, -1589.22, 30.51),

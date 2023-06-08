@@ -3,6 +3,66 @@ QBShared = QBShared or {}
 QBShared.Vehicles = {
     --- Compacts
 
+    ['fbi2'] = {
+        ['name'] = 'FBI2 Voiture',
+        ['brand'] = 'Dodge',
+        ['model'] = 'fbi2',
+        ['price'] = 45000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `fbi2`,
+        ['shop'] = 'pdm',
+    },
+
+    ['r6'] = {
+        ['name'] = 'Yamaha R6',
+        ['brand'] = 'BMW',
+        ['model'] = 'r6',
+        ['price'] = 45000,
+        ['category'] = 'motorcycles',
+        ["categoryLabel"] = 'Motorcycles',
+        ['hash'] = `r6`,
+        ['shop'] = 'pdm',
+    },
+
+    ['bmws19'] = {
+        ['name'] = 'BMW S1000R',
+        ['brand'] = 'BMW',
+        ['model'] = 'bmws19',
+        ['price'] = 45000,
+        ['category'] = 'motorcycles',
+        ["categoryLabel"] = 'Motorcycles',
+        ['hash'] = `bmws19`,
+        ['shop'] = 'pdm',
+    },
+
+    ['centurion'] = {
+        ['name'] = 'Bearcat Centurion',
+        ['brand'] = 'LC',
+        ['model'] = 'centurion',
+        ['price'] = 45000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `centurion`,
+    },
+    ['mobh'] = {
+        ['name'] = 'Land Cruiser',
+        ['brand'] = 'LC',
+        ['model'] = 'mobh',
+        ['price'] = 45000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `mobh`,
+    },
+    ['char'] = {
+        ['name'] = 'Charger Banal',
+        ['brand'] = 'Dodge',
+        ['model'] = 'char',
+        ['price'] = 45000,
+        ['category'] = 'compacts',
+        ["categoryLabel"] = 'Compacts',
+        ['hash'] = `char`,
+    },
     ['poldom'] = {
         ['name'] = 'GTX Police',
         ['brand'] = 'Vapid',
@@ -18,8 +78,8 @@ QBShared.Vehicles = {
         ['brand'] = 'Yamaha',
         ['model'] = 'tmax',
         ['price'] = 45000,
-        ['category'] = 'compacts',
-        ["categoryLabel"] = 'Compacts',
+        ['category'] = 'motorcycles',
+        ["categoryLabel"] = 'Motorcycles',
         ['hash'] = `tmax`,
         ['shop'] = 'pdm',
     },

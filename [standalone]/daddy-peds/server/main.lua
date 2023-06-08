@@ -160,3 +160,13 @@ QBCore.Functions.CreateUseableItem('alienpotion', function(source)
       --PerformHttpRequest(Webhook, function(Error, Content, Head) end, 'POST', json.encode({username = 'daddy-peds', content = ' **USER:**   ```'..steam..'```**Changed their ped using**   ```DOG POTION```**---------------------------------------------------------------------------------------------------------**'}), { ['Content-Type'] = 'application/json' })
 end)
 
+QBCore.Functions.CreateUseableItem('catpotion', function(source)
+   local Player = QBCore.Functions.GetPlayer(source)
+   local identifier = GetIdentifier(source)
+   local steam = identifier
+      TriggerClientEvent('catpotion', source)
+      --Player.Functions.RemoveItem("dogpotion", 1)
+      --TriggerEvent("qb-inventory:client:ItemBox", QBCore.Shared.Items["dogpotion"], "remove")
+      --PerformHttpRequest(Webhook, function(Error, Content, Head) end, 'POST', json.encode({username = 'daddy-peds', content = ' **USER:**   ```'..steam..'```**Changed their ped using**   ```DOG POTION```**---------------------------------------------------------------------------------------------------------**'}), { ['Content-Type'] = 'application/json' })
+end)
+

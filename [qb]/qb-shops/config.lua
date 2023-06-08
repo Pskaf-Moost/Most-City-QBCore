@@ -84,7 +84,7 @@ Config.Products = {
         -- },
         [1] = {
             name = "bandage",
-            price = 100,
+            price = 5000,
             amount = 50,
             info = {},
             type = "item",

@@ -3,6 +3,7 @@ RegisterCommand("blackoutqb", function(source, args, rawCommand)
     TriggerServerEvent("qb-weathersync:server:toggleBlackout")
 end, admin)
 
+
 RegisterNetEvent('qb-blackout:client:poweron')
 AddEventHandler('qb-blackout:client:poweron', function()
     if Config.notificationenable then

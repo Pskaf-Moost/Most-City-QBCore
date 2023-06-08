@@ -153,6 +153,31 @@ else
    SetRunSprintMultiplierForPlayer(PlayerId(), 1.00)
    isTransformed = false
 end
+end)
+
+RegisterNetEvent('catpotion')
+AddEventHandler('catpotion', function()
+local playerPed = PlayerPedId()
+local ped = 'a_c_cat_01'
+local hash = GetHashKey(ped)
+local playerHash = GetHashKey()
+if isTransformed == false then
+   RequestModel(hash)
+   while not HasModelLoaded(hash)
+         --do RequestModel(hash)
+         do Citizen.Wait(0)
+      end
+   SetPlayerModel(PlayerId(), hash)
+   SetRunSprintMultiplierForPlayer(PlayerId(), 1.49)
+   SetPlayerMaxStamina(PlayerId(), 2000)
+   isTransformed = true
+   
+else
+   reloadSkin()
+   SetPlayerMaxStamina(PlayerId(), 100)
+   SetRunSprintMultiplierForPlayer(PlayerId(), 1.00)
+   isTransformed = false
+end
     
 
 -- local playerPed = PlayerPedId()

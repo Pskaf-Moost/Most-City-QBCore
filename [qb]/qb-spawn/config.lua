@@ -19,6 +19,12 @@ QB.Spawns = {
         label = "Fourrière",
     },
 
+    ["hospital"] = {
+        coords = vector4(298.12, -582.72, 43.26, 82.09),
+        location = "hospital",
+        label = "Hopital",
+    },
+
 
 
     -- ["paleto"] = {

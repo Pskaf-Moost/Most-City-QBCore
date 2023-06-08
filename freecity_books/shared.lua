@@ -32,6 +32,14 @@ Config.Items = {                     -- Add and create here your items, Your ima
         name = 'LS Times 2',           -- this is just for your info, use what you want inside of ''
         numberOfPages = 4,               -- Must be the exact number of pages you made for that book.
     },
+    ['lstimes3'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
+        name = 'LS Times 3',           -- this is just for your info, use what you want inside of ''
+        numberOfPages = 4,               -- Must be the exact number of pages you made for that book.
+    },
+    ['lstimes4'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
+        name = 'LS Times 4',           -- this is just for your info, use what you want inside of ''
+        numberOfPages = 4,               -- Must be the exact number of pages you made for that book.
+    },
     ['science1'] = {                       -- ITEMS NAME : Add your respective items to ESX - Database // QBcore items.lua
         name = 'Rapport 1',           -- this is just for your info, use what you want inside of ''
         numberOfPages = 2,               -- Must be the exact number of pages you made for that book.
