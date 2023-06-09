@@ -63,6 +63,17 @@ alien predator https://fr.gta5-mods.com/player/alien
 
 ++ : 
 
+https://rtx.tebex.io/package/5430785
+https://rtx.tebex.io/package/5722825
+https://forum.cfx.re/t/mlo-mexican-mafia/5111252
+https://forum.cfx.re/t/esx-qb-t1ger-gang-system/5048130
+https://forum.cfx.re/t/robberies-creator-esx-qbcore-in-game-heists-creation-menu-without-server-restart/4893285
+https://forum.cfx.re/t/fight-club-script/4939685
+https://tebex.charleshacks.com/package/5445019
+https://forum.cfx.re/t/standalone-esx-qbcore-zerodream-parking-parking-your-car-like-in-real-life/4986567
+https://forum.cfx.re/t/esx-qb-placeableobjects-useable-item-objects/4883126
+https://www.youtube.com/watch?v=7kk0VDJ8BDo
+
 Fortune cookie - Custom resources ? 
 https://forum.cfx.re/t/free-esx-qbcore-wasabis-portable-boombox-v2-updated-8-14-22/4885919
 

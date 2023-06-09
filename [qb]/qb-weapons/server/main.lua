@@ -324,6 +324,14 @@ QBCore.Functions.CreateUseableItem('emp_ammo', function(source, item)
     TriggerClientEvent('weapons:client:AddAmmo', source, 'AMMO_EMPLAUNCHER', 10, item)
 end)
 
+QBCore.Functions.CreateUseableItem('minig_ammo', function(source, item)
+    TriggerClientEvent('weapons:client:AddAmmo', source, 'AMMO_MINIGUN', 300, item)
+end)
+
+QBCore.Functions.CreateUseableItem('rocket', function(source, item)
+    TriggerClientEvent('weapons:client:AddAmmo', source, 'AMMO_RPG', 1, item)
+end)
+
 -- TINTS
 QBCore.Functions.CreateUseableItem('weapontint_black', function(source)
     TriggerClientEvent('weapons:client:EquipTint', source, 0)
